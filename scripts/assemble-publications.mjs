@@ -12,6 +12,7 @@ import {
 } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { adaptHtmlPublication } from "./publication-bridge.mjs";
 
 const SCRIPT_DIRECTORY = path.dirname(fileURLToPath(import.meta.url));
 const REPOSITORY_ROOT = path.resolve(SCRIPT_DIRECTORY, "..");
@@ -239,7 +240,7 @@ function renderPortal(manifest) {
 `;
 }
 
-function renderPublication(publication, site) {
+function renderPublication(publication, site, adaptation) {
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -259,7 +260,8 @@ function renderPublication(publication, site) {
       <dt>Build ID</dt><dd><code>${escapeHtml(publication.buildId)}</code></dd>
       <dt>Compiler version</dt><dd>${escapeHtml(publication.compilerVersion)}</dd>
     </dl>
-    <p><a href="${encodeURI(publication.entryArtifact)}">Open publication artifact</a></p>
+    <p class="actions"><a href="${encodeURI(adaptation.entryPath)}">Explore compiler runtime</a> · <a href="${encodeURI(publication.entryArtifact)}">Open primary publication artifact</a></p>
+    <p><small>The Runtime Explorer is a derived presentation. The compiler artifacts it exposes remain unchanged.</small></p>
   </main>
 </body>
 </html>
@@ -319,7 +321,8 @@ async function main() {
         const evidence = await copyAndVerify(file.absolutePath, destination);
         copyEvidence.push({ publication: publication.id, path: file.relativePath, ...evidence });
       }
-      await writeFile(path.join(destinationDirectory, "index.html"), renderPublication(publication, manifest.site), "utf8");
+      const adaptation = await adaptHtmlPublication({ publication, destinationDirectory });
+      await writeFile(path.join(destinationDirectory, "index.html"), renderPublication(publication, manifest.site, adaptation), "utf8");
     }
 
     const publicCatalogue = {

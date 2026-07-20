@@ -1,0 +1,10 @@
+{
+  "name": "fsp-matrix-cloud-publication-bridge",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/assemble-publications.mjs",
+    "test": "node scripts/assemble-publications.mjs && node scripts/verify-publication-bridge.mjs"
+  }
+}
