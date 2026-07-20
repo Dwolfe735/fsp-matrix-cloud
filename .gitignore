@@ -1,0 +1,3 @@
+.netlify-dist/
+.netlify-dist.staging/
+.netlify-dist.previous/

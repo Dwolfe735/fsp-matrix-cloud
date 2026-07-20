@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "site": {
+    "title": "Future Self Protocol — Matrix Cloud",
+    "description": "Authoritative compiled knowledge publications distributed through the Matrix Cloud."
+  },
+  "publications": [
+    {
+      "id": "BUILD-015",
+      "path": "BUILD-015",
+      "title": "EMMI Operational Knowledge — BUILD-015",
+      "description": "Compiled operational knowledge publication for the EMMI Crystal Inn system.",
+      "entryArtifact": "merged-documents/BUILD-015-CERTIFIED-MERGED.md",
+      "buildId": "aa3588321f5d6c671b7fbc6fb4e2faa3f26235ae9a634adcb674cd83929dca08",
+      "compilerVersion": "1.1.1"
+    },
+    {
+      "id": "MATRIX_CORE-002",
+      "path": "MATRIX_CORE-002",
+      "title": "Matrix Core Knowledge Baseline",
+      "description": "Compiled Matrix Core constitutional knowledge publication.",
+      "entryArtifact": "merged-documents/MATRIX-CORE-KNOWLEDGE-BASELINE.md",
+      "buildId": "bf063800cddc86225fc8a1555bd760d0ac6ac60768d3aeba2eb3d5ac7489f2ce",
+      "compilerVersion": "1.1.1"
+    },
+    {
+      "id": "matrix_core-003",
+      "path": "matrix_core-003",
+      "title": "Matrix Core — Publication 003",
+      "description": "Compiled Matrix Core operational knowledge validation publication.",
+      "entryArtifact": "manifest.json",
+      "buildId": "1030474ae7cc38f515caf3e2c7122719f2e4b6568aae2aeb7a0b225c5054cac3",
+      "compilerVersion": "1.0.0"
+    }
+  ]
+}
