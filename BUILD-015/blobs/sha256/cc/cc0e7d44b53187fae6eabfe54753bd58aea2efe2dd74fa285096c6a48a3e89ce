@@ -1,0 +1,119 @@
+# REF-014 – Operational Simplicity Doctrine
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification establishes operational simplicity as a fundamental design doctrine for EMMI.
+
+The objective is to ensure that the platform remains easy to understand, efficient to operate, and straightforward to maintain, regardless of future expansion.
+
+---
+
+# Foundational Principle
+
+Complex operations should appear simple to the user.
+
+Sophisticated internal logic is acceptable only when it reduces, rather than increases, the complexity experienced by administrators.
+
+The system should absorb complexity instead of exposing it.
+
+---
+
+# Simplicity Before Features
+
+New functionality should only be introduced where it delivers genuine operational value.
+
+Features that duplicate existing capability, complicate workflows, or increase cognitive load without meaningful benefit should be avoided.
+
+Every addition should justify its existence.
+
+---
+
+# Progressive Complexity
+
+Users should encounter only the information and controls relevant to their current task.
+
+Advanced functionality should be revealed only when appropriate.
+
+This approach enables both new and experienced administrators to work efficiently within the same environment.
+
+---
+
+# One Logical Path
+
+For routine operations, there should normally be one clear and obvious path to task completion.
+
+Alternative routes should exist only where they provide genuine operational advantages.
+
+Reducing unnecessary choices improves confidence and consistency.
+
+---
+
+# Minimise Cognitive Load
+
+The interface should minimise the amount of information users must remember.
+
+The system should instead provide:
+
+* clear navigation;
+* visible workflows;
+* contextual information;
+* sensible defaults;
+* meaningful prompts.
+
+Recognition should be preferred over recall.
+
+---
+
+# Consistent Behaviour
+
+Similar actions should behave consistently throughout EMMI.
+
+Users should not need to learn different interaction patterns for different modules.
+
+Consistency creates simplicity.
+
+---
+
+# Intelligent Reduction
+
+Where operational information can be summarised without losing meaning, the system should present concise summaries with the ability to drill down into additional detail.
+
+High-level information should remain uncluttered while detailed information remains readily accessible.
+
+---
+
+# Maintainable Simplicity
+
+Operational simplicity also applies to the architecture.
+
+Future enhancements should seek to simplify existing workflows wherever possible rather than continually adding new complexity.
+
+Simplification is considered a form of architectural improvement.
+
+---
+
+# Future Evolution
+
+As EMMI grows, operational simplicity shall remain a governing principle.
+
+Every refinement should be evaluated against a simple question:
+
+> Does this make the system easier or harder to use?
+
+Only changes that improve the overall operational experience should become permanent.
+
+---
+
+# Executive Context Summary
+
+This specification establishes operational simplicity as a permanent architectural doctrine for EMMI. The platform should conceal complexity behind intuitive workflows, minimise cognitive load, and present administrators with clear, consistent, and efficient operational experiences. Future expansion should strengthen simplicity rather than compromise it.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

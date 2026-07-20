@@ -1,0 +1,137 @@
+# M004-004 — Dependency Register
+
+**Status:** DRAFT
+
+---
+
+# Purpose
+
+This document establishes the constitutional dependency framework governing implementation throughout BUILD-015.
+
+Its purpose is to identify, manage and preserve implementation dependencies so that Codex may execute the implementation programme without violating constitutional sequencing, ownership or architectural integrity.
+
+---
+
+# Constitutional Principles
+
+Every implementation dependency shall be explicit.
+
+Dependencies shall be identified before implementation commences.
+
+Implementation shall not proceed where unresolved dependencies would compromise constitutional integrity.
+
+Dependency management exists to preserve constitutional correctness rather than implementation convenience.
+
+---
+
+# Dependency Categories
+
+Implementation dependencies may include:
+
+- constitutional dependencies
+- architectural dependencies
+- application dependencies
+- interface dependencies
+- workflow dependencies
+- shared service dependencies
+- validation dependencies
+- infrastructure dependencies
+
+Each dependency shall be classified according to its constitutional significance.
+
+---
+
+# Dependency Identification
+
+Each implementation work package shall identify:
+
+- prerequisite work packages
+- required constitutional directives
+- required interfaces
+- required shared services
+- required operational capabilities
+- validation prerequisites
+
+No dependency shall remain implicit.
+
+---
+
+# Dependency Resolution
+
+Implementation shall verify that every identified dependency has been satisfied before dependent implementation begins.
+
+Where dependencies remain unresolved:
+
+- implementation shall pause
+- the unresolved dependency shall be recorded
+- constitutional impact shall be assessed
+- implementation shall resume only after resolution or authorised constitutional approval
+
+---
+
+# Cross-Domain Dependencies
+
+Where implementation spans multiple constitutional domains:
+
+- ownership boundaries shall remain unchanged
+- responsibilities shall remain distinct
+- published interfaces shall govern interaction
+- constitutional authority shall remain traceable
+
+Cross-domain dependency shall not imply cross-domain ownership.
+
+---
+
+# Validation Dependencies
+
+Validation activities may themselves possess dependencies.
+
+Validation shall confirm:
+
+- prerequisite implementation completion
+- interface readiness
+- constitutional traceability
+- audit readiness
+- implementation integrity
+
+Validation dependencies shall be satisfied before certification.
+
+---
+
+# Dependency Governance
+
+Changes to implementation dependencies shall occur only where:
+
+- constitutional authority permits
+- architectural integrity is preserved
+- implementation traceability remains complete
+- revised dependencies are documented
+
+Dependency changes shall never introduce architectural drift.
+
+---
+
+# Architectural Integrity
+
+Implementation dependency management shall preserve:
+
+- constitutional ownership
+- separation of responsibilities
+- delegated authority
+- implementation sequencing
+- architectural consistency
+- auditability
+
+Dependency management shall reinforce, not weaken, constitutional governance.
+
+---
+
+# Mission Outcome
+
+This directive establishes the constitutional dependency framework through which implementation sequencing, work package coordination and architectural integrity are preserved throughout the BUILD-015 implementation programme.
+
+---
+
+# Ratification Record
+
+**Status:** DRAFT

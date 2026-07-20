@@ -1,0 +1,136 @@
+# REF-028 – State Transition Doctrine
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification establishes the State Transition doctrine for the EMMI platform.
+
+Its objective is to ensure that every operational entity progresses through clearly defined, controlled, and auditable states throughout its lifecycle.
+
+By managing operational state explicitly, the platform maintains consistency, predictability, and governance across all workflows.
+
+---
+
+# Foundational Principle
+
+Every significant operational entity shall possess a defined lifecycle.
+
+Changes shall occur through authorised state transitions rather than arbitrary modification.
+
+State defines the current operational condition of an entity.
+
+---
+
+# Operational States
+
+Examples of operational states include:
+
+Guest Application:
+
+* Submitted
+* Under Review
+* Approved
+* Declined
+* Waitlisted
+* Withdrawn
+
+Booking:
+
+* Pending
+* Deposit Received
+* Confirmed
+* Cancelled
+* Refunded
+* Completed
+
+Retreat:
+
+* Draft
+* Published
+* Open
+* Full
+* In Progress
+* Completed
+* Archived
+
+Each entity shall define only the states appropriate to its operational purpose.
+
+---
+
+# Controlled Transitions
+
+Movement between states shall occur only through authorised operational actions or approved automated workflows.
+
+Invalid or contradictory transitions shall be prevented.
+
+Controlled progression preserves operational integrity.
+
+---
+
+# State Awareness
+
+The current state of an entity should always be visible wherever that entity is managed.
+
+Administrators should never need to infer an operational state from surrounding information.
+
+The platform should communicate state clearly and consistently.
+
+---
+
+# Triggered Behaviour
+
+State transitions may initiate operational actions including:
+
+* workflow progression;
+* notifications;
+* audit recording;
+* dashboard updates;
+* AI analysis;
+* reporting updates.
+
+The transition, rather than the user interface, should drive operational behaviour.
+
+---
+
+# Auditability
+
+Significant state transitions shall be recorded as part of the operational history.
+
+Where appropriate, the platform should retain:
+
+* previous state;
+* new state;
+* transition time;
+* initiating administrator or process;
+* resulting actions.
+
+State history supports accountability and operational analysis.
+
+---
+
+# Consistency
+
+Equivalent entities shall follow consistent lifecycle rules throughout the platform.
+
+State names, transition behaviour, and operational meaning should remain standardised wherever practical.
+
+---
+
+# Future Evolution
+
+Future versions of EMMI may introduce configurable state machines, conditional transitions, AI-assisted workflow optimisation, and visual lifecycle diagrams while preserving the principles established by this doctrine.
+
+---
+
+# Executive Context Summary
+
+This specification establishes State Transition management as a core architectural principle of EMMI. By defining explicit operational states and governing how entities move between them, the platform achieves predictable workflows, improved auditability, stronger automation, and greater operational consistency. This doctrine complements the Event-Driven Architecture by defining the lifecycle upon which operational events occur.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

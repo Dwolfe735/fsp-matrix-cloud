@@ -1,0 +1,152 @@
+# CI-012 — Event-Driven Orchestration
+
+**Status:** DRAFT
+
+## Purpose
+
+This directive establishes Event-Driven Orchestration as the constitutional mechanism through which authorised operational events coordinate activities across the EMMI ecosystem.
+
+Its purpose is to ensure that operational behaviour is initiated by recognised events while preserving constitutional ownership, delegated authority and separation of responsibilities.
+
+---
+
+# Constitutional Principles
+
+Operational events represent recognised changes in operational state.
+
+Authorised events may initiate constitutionally approved operational workflows.
+
+Events coordinate operational activity.
+
+Events do not own business logic, constitutional authority or application domain responsibilities.
+
+---
+
+# Constitutional Responsibilities
+
+Event-Driven Orchestration is responsible for:
+
+- recognising authorised operational events
+- initiating approved operational workflows
+- coordinating cross-domain activity
+- notifying authorised operational capabilities
+- maintaining workflow progression
+- recording orchestration activity
+- supporting operational responsiveness
+
+---
+
+# Constitutional Boundaries
+
+Event-Driven Orchestration shall not:
+
+- replace application business logic
+- assume domain ownership
+- create constitutional authority
+- bypass delegated authority
+- execute responsibilities assigned to another constitutional domain
+
+Execution shall remain the responsibility of the authorised participating domains.
+
+---
+
+# Authorised Events
+
+Operational events may include:
+
+- guest lifecycle events
+- financial events
+- workflow events
+- communication events
+- operational status changes
+- scheduling events
+- approval events
+- system events
+- constitutional governance events
+
+Only constitutionally recognised events shall initiate orchestration.
+
+---
+
+# Workflow Coordination
+
+An operational event may initiate one or more authorised activities.
+
+Each participating domain shall:
+
+- receive only the information required to perform its constitutional responsibilities
+- execute within its authorised scope
+- report completion or exception status
+- preserve constitutional ownership throughout execution
+
+---
+
+# Relationship with Operational Intelligence
+
+Operational Intelligence may:
+
+- observe operational events
+- assess operational significance
+- recommend prioritisation
+- monitor orchestration progress
+- provide executive awareness
+
+Operational Intelligence supports orchestration but does not replace authorised workflow execution.
+
+---
+
+# Audit Requirements
+
+Every orchestrated event shall be capable of recording, where applicable:
+
+- event identifier
+- triggering condition
+- initiating authority
+- participating domains
+- workflow progression
+- execution outcomes
+- exception conditions
+- completion status
+
+Operational orchestration shall remain fully auditable.
+
+---
+
+# Architectural Integrity
+
+Implementation shall preserve a clear distinction between:
+
+- operational events
+- workflow orchestration
+- business logic
+- delegated authority
+- operational intelligence
+- application domains
+
+Each constitutional capability shall retain its defined responsibilities.
+
+---
+
+# Validation
+
+Before implementation, every orchestrated event shall be capable of answering:
+
+- What authorised event occurred?
+- Which workflows were initiated?
+- Which domains participated?
+- Has constitutional ownership been preserved?
+- Is the complete orchestration traceable through audit?
+
+Failure to satisfy these questions indicates constitutional non-compliance.
+
+---
+
+# Constitutional Outcome
+
+This directive establishes Event-Driven Orchestration as the constitutional coordination mechanism through which authorised operational events initiate and coordinate operational activity while preserving ownership, authority, accountability and architectural integrity.
+
+---
+
+# Ratification Record
+
+**Status:** DRAFT

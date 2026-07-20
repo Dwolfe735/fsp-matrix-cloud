@@ -1,0 +1,255 @@
+# MISSION-002 — Operational Intelligence Blueprint
+
+**Status:** DRAFT
+
+---
+
+# Purpose
+
+This document defines the constitutional architecture of the
+Operational Intelligence Engine (OIE).
+
+It is the authoritative architectural blueprint for all BUILD-015
+implementation activities.
+
+All subsequent implementation shall conform to this blueprint.
+
+---
+
+# Architectural Objective
+
+Provide a single constitutional model describing:
+
+- system hierarchy
+- architectural responsibilities
+- operational relationships
+- information flow
+- authority flow
+- execution flow
+
+The blueprint establishes where every capability belongs.
+
+---
+
+# Constitutional Hierarchy
+
+```
+Human Authority
+        │
+        ▼
+Operational Intent
+        │
+        ▼
+Operational Intelligence Engine
+        │
+ ┌──────┼───────────────────────────────────────┐
+ │      │      │      │      │      │           │
+ ▼      ▼      ▼      ▼      ▼      ▼           ▼
+Memory Knowledge Awareness Reasoning Delegation Orchestration Experience
+        │
+        ▼
+Application Domain Services
+        │
+ ┌──────┼───────────────────────────────────────┐
+ ▼      ▼      ▼      ▼      ▼      ▼
+Guests Finance Retreats Communications Tasks Documents
+        │
+        ▼
+Presentation Interfaces
+        │
+ ┌──────┼───────────────────────────────────────┐
+ ▼      ▼      ▼      ▼
+Dashboard Website Mobile Voice/API
+```
+
+---
+
+# Constitutional Layers
+
+## Layer 1
+
+Human Authority
+
+Owns:
+
+- objectives
+- approval
+- delegated authority
+- constitutional governance
+
+---
+
+## Layer 2
+
+Operational Intent
+
+Transforms executive objectives into operational goals.
+
+---
+
+## Layer 3
+
+Operational Intelligence Engine
+
+Constitutionally responsible for:
+
+- operational understanding
+- operational reasoning
+- operational coordination
+- operational planning
+- workflow orchestration
+- recommendation generation
+- executive briefing
+- experience orchestration
+
+The OIE does not own operational data.
+
+---
+
+## Layer 4
+
+Application Domain Services
+
+Each application module owns its own operational domain.
+
+Examples:
+
+Guests
+
+Finance
+
+Retreat Operations
+
+Communications
+
+Tasks
+
+Documents
+
+Notifications
+
+Validation
+
+Each module remains the authoritative source for its own data.
+
+---
+
+## Layer 5
+
+Presentation Interfaces
+
+Presentation interfaces expose intelligence.
+
+They do not own operational logic.
+
+Examples:
+
+Dashboard
+
+Website
+
+Mobile
+
+Voice
+
+External API
+
+---
+
+# Information Flow
+
+```
+Data
+    ↓
+Information
+    ↓
+Operational Memory
+    ↓
+Operational Knowledge
+    ↓
+Operational Awareness
+    ↓
+Operational Intelligence
+```
+
+---
+
+# Authority Flow
+
+```
+Human Authority
+        ↓
+Delegated Authority
+        ↓
+Operational Intelligence
+        ↓
+Execution
+        ↓
+Audit
+```
+
+---
+
+# Event Flow
+
+```
+Operational Event
+        ↓
+Event Evaluation
+        ↓
+Operational Intelligence
+        ↓
+Workflow Orchestration
+        ↓
+Application Services
+        ↓
+Operational Memory
+        ↓
+Executive Briefing
+```
+
+---
+
+# Responsibility Principle
+
+Application Modules
+
+Own Facts.
+
+Operational Intelligence
+
+Owns Understanding.
+
+Presentation Interfaces
+
+Own User Experience.
+
+Human Authority
+
+Owns Decisions.
+
+---
+
+# Constitutional Rule
+
+Every future capability shall identify the constitutional layer that
+owns its responsibility before implementation begins.
+
+No capability shall violate layer responsibilities defined within this
+blueprint.
+
+---
+
+# Completion Criteria
+
+The blueprint is complete when:
+
+- all constitutional layers are defined
+- ownership is unambiguous
+- operational flows are defined
+- architectural responsibilities are exclusive
+- implementation may proceed without architectural ambiguity
+
+---
+
+**End of Mission**

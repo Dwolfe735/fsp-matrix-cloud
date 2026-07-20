@@ -1,0 +1,127 @@
+# REF-019 – Operational Visibility Doctrine
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification establishes the principles governing operational visibility throughout the EMMI platform.
+
+Its objective is to ensure that administrators always have sufficient visibility into the current operational state of the system to make informed, timely, and confident decisions.
+
+---
+
+# Foundational Principle
+
+Information that affects operational decisions should never be hidden.
+
+The system shall provide appropriate visibility into activities, workflows, resources, and system status while avoiding unnecessary information overload.
+
+Visibility enables confidence.
+
+---
+
+# Real-Time Awareness
+
+Operational information should reflect the current state of the platform wherever practical.
+
+Examples include:
+
+* active retreats;
+* guest attendance;
+* booking capacity;
+* payment status;
+* outstanding reviews;
+* pending communications.
+
+Administrators should not need to manually verify information that the system already knows.
+
+---
+
+# Operational Dashboards
+
+Visibility should begin with high-level summaries and progressively reveal additional detail.
+
+The Executive Dashboard should provide an immediate overview of operational health, while specialist dashboards provide deeper insight into individual operational areas.
+
+Information should flow naturally from summary to detail.
+
+---
+
+# Actionable Information
+
+Operational visibility should focus on information that supports action.
+
+Data should answer questions such as:
+
+* What requires attention?
+* What has changed?
+* What is waiting?
+* What should happen next?
+
+Information without operational value should remain secondary.
+
+---
+
+# Cross-Module Awareness
+
+Where appropriate, operational information should be visible across related modules.
+
+Examples include:
+
+* payment status during guest review;
+* accommodation allocation during booking;
+* communication history before contact;
+* medical flags during attendance.
+
+Relevant information should travel with the workflow.
+
+---
+
+# Historical Visibility
+
+Administrators should be able to review historical operational activity when required.
+
+Historical visibility supports:
+
+* auditing;
+* reporting;
+* operational learning;
+* trend analysis;
+* accountability.
+
+Past activity should remain available without interfering with current operations.
+
+---
+
+# Transparent Operations
+
+The platform should make significant automated actions visible.
+
+Administrators should understand:
+
+* what occurred;
+* when it occurred;
+* why it occurred;
+* what effect it had.
+
+Operational transparency strengthens trust in the system.
+
+---
+
+# Future Evolution
+
+Future AI capabilities may enhance operational visibility through intelligent summaries, predictive insights, anomaly detection, and executive briefings while remaining aligned with this doctrine.
+
+---
+
+# Executive Context Summary
+
+This specification establishes operational visibility as a core architectural principle within EMMI. By ensuring that relevant information is readily available at every stage of administration, the platform supports confident decision-making, reduces uncertainty, and enables administrators to maintain continuous awareness of operational health without becoming overwhelmed by unnecessary detail.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

@@ -1,0 +1,152 @@
+# REF-006 – Workflow Progress Indicators
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification defines the standard workflow progress indicator system used throughout the EMMI administration interface.
+
+Its purpose is to clearly communicate where a user is within an operational process, what has already been completed, and what remains to be done.
+
+The objective is to make every workflow self-explanatory, even for first-time users.
+
+---
+
+# Design Philosophy
+
+Workflow progress indicators shall:
+
+* guide rather than instruct;
+* minimise user uncertainty;
+* provide continuous orientation;
+* encourage completion;
+* remain visually simple;
+* be consistent across all workflows.
+
+Progress indicators should reduce cognitive load by making the current stage immediately obvious.
+
+---
+
+# Standard Workflow States
+
+Each workflow step shall have one of the following states.
+
+| Indicator | Meaning                                  |
+| --------- | ---------------------------------------- |
+| 🟢        | Completed                                |
+| 🔵        | Current Step                             |
+| ⚪         | Pending                                  |
+| 🔒        | Unavailable Until Previous Step Complete |
+
+These indicators describe workflow position rather than operational status.
+
+---
+
+# Workflow Presentation
+
+Workflows should be displayed in their natural operational sequence.
+
+Example:
+
+🟢 Application Submitted
+
+↓
+
+🟢 Questionnaire Reviewed
+
+↓
+
+🔵 Approval Decision
+
+↓
+
+⚪ Deposit Payment
+
+↓
+
+🔒 Booking Confirmation
+
+The current step should always be visually distinct.
+
+---
+
+# Sequential Progression
+
+Users should normally complete workflows in sequence.
+
+Where prerequisites exist, later stages shall remain unavailable until earlier stages have been successfully completed.
+
+This reduces accidental omissions and preserves operational integrity.
+
+---
+
+# Workflow Continuity
+
+Whenever possible, users should be offered the logical next action immediately upon completing the current step.
+
+Examples include:
+
+* Review completed → Approve Application
+* Approval completed → Send Approval Email
+* Deposit received → Confirm Booking
+* Booking confirmed → Allocate Accommodation
+
+The workflow should naturally encourage forward progression.
+
+---
+
+# Optional Workflow Steps
+
+Some workflows may contain optional stages.
+
+Optional stages should be clearly identified without interrupting progression through mandatory stages.
+
+Skipping an optional step should not affect the integrity of the workflow.
+
+---
+
+# Completed Workflows
+
+Once a workflow is complete:
+
+* all completed stages should remain visible;
+* the workflow should be marked as complete;
+* historical progress should remain available for audit purposes.
+
+---
+
+# Accessibility
+
+Workflow indicators should combine icons with descriptive text.
+
+Progress must remain understandable even where colours are unavailable.
+
+The sequence of steps should always communicate the workflow clearly.
+
+---
+
+# Future Expansion
+
+Future workflow engines may support:
+
+* nested workflows;
+* parallel workflows;
+* automated progression;
+* AI-generated recommendations;
+* workflow analytics.
+
+The underlying progression model shall remain consistent regardless of future enhancements.
+
+---
+
+# Executive Context Summary
+
+This specification establishes a standard workflow progress system for EMMI. By clearly identifying completed, current, pending, and unavailable stages, administrators can immediately understand where they are within any operational process. The result is a more intuitive interface, fewer errors, and a smoother progression through complex administrative tasks.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

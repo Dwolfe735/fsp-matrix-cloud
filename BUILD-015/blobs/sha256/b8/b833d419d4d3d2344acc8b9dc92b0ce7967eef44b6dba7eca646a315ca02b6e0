@@ -1,0 +1,125 @@
+# REF-024 – Context Preservation Doctrine
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification establishes context preservation as a fundamental architectural doctrine within the EMMI platform.
+
+Its objective is to ensure that administrators can move naturally through operational workflows without repeatedly re-establishing their working environment.
+
+The platform should remember where the user is, what they are doing, and the operational context in which they are working.
+
+---
+
+# Foundational Principle
+
+Operational context is valuable information.
+
+The system shall preserve relevant context wherever practical in order to minimise unnecessary navigation, repetitive input, and interruption to workflow.
+
+Administrators should spend their time making decisions rather than reconstructing their working environment.
+
+---
+
+# Preserved Context
+
+Where appropriate, EMMI should preserve:
+
+* selected retreat;
+* selected guest;
+* current workflow stage;
+* search criteria;
+* applied filters;
+* sorting preferences;
+* page position;
+* dashboard selections.
+
+Context should remain stable until the administrator intentionally changes it.
+
+---
+
+# Workflow Continuity
+
+Movement between related operational screens should retain the user's current context.
+
+Examples include:
+
+* returning from a guest record to the same filtered application list;
+* returning from accommodation allocation to the same retreat;
+* opening communication history without losing the current workflow position.
+
+The interface should support uninterrupted operational flow.
+
+---
+
+# Intelligent Navigation
+
+Navigation should make use of preserved context to reduce unnecessary interaction.
+
+Where appropriate, the platform should automatically present:
+
+* the active retreat;
+* relevant operational records;
+* the next logical workflow step;
+* previously selected operational views.
+
+The system should remember enough to be helpful without becoming intrusive.
+
+---
+
+# Session Continuity
+
+During an active administrative session, the platform should maintain context wherever practical.
+
+Temporary interruptions should not require administrators to restart their workflow unless operationally necessary.
+
+The objective is continuity rather than repetition.
+
+---
+
+# Safe Context Management
+
+Preserved context shall never compromise operational accuracy.
+
+Where context is no longer valid or may lead to incorrect decisions, the system should safely reset or request confirmation before proceeding.
+
+Convenience must never override correctness.
+
+---
+
+# Consistency
+
+Context preservation shall behave consistently across every module.
+
+Administrators should develop confidence that the platform will maintain their operational position throughout normal workflows.
+
+Predictable behaviour improves productivity.
+
+---
+
+# Future Evolution
+
+Future versions of EMMI may extend context preservation through:
+
+* personalised workspaces;
+* cross-device session continuity;
+* AI-assisted task resumption;
+* intelligent workspace restoration;
+* role-based operational memory.
+
+All future enhancements shall remain consistent with this doctrine.
+
+---
+
+# Executive Context Summary
+
+This specification establishes context preservation as a core architectural principle of EMMI. By maintaining operational context throughout administrative workflows, the platform reduces unnecessary navigation, minimises repetitive effort, and enables administrators to remain focused on decision-making rather than interface management. This doctrine supports a seamless operational experience and provides a foundation for future intelligent workspace capabilities.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

@@ -1,0 +1,131 @@
+# REF-017 – Operational Feedback Doctrine
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification establishes the principles governing operational feedback throughout the EMMI administration platform.
+
+Its objective is to ensure that every significant user action receives clear, timely, and meaningful feedback, allowing administrators to work confidently without uncertainty.
+
+---
+
+# Foundational Principle
+
+Users should never be left wondering whether the system has understood, accepted, or completed an action.
+
+Every meaningful interaction shall generate appropriate feedback proportional to its operational significance.
+
+---
+
+# Immediate Feedback
+
+Routine actions should provide immediate confirmation.
+
+Examples include:
+
+* saving a record;
+* updating a booking;
+* assigning accommodation;
+* sending a communication;
+* completing a workflow stage.
+
+Immediate acknowledgement builds confidence and maintains workflow momentum.
+
+---
+
+# Progress Feedback
+
+Where an operation requires noticeable time to complete, the system should indicate that processing is underway.
+
+Examples include:
+
+* importing data;
+* generating reports;
+* sending bulk communications;
+* creating backups;
+* synchronising information.
+
+Users should always understand that the system is actively working.
+
+---
+
+# Outcome Feedback
+
+Completed operations should clearly communicate their result.
+
+Possible outcomes include:
+
+* successful completion;
+* partial completion;
+* warning;
+* validation issue;
+* operational failure.
+
+Messages should explain what occurred rather than simply stating that an error exists.
+
+---
+
+# Constructive Error Messages
+
+When problems occur, feedback should assist resolution rather than merely report failure.
+
+Where practical, messages should explain:
+
+* what happened;
+* why it happened;
+* what the administrator can do next.
+
+The objective is recovery rather than frustration.
+
+---
+
+# Positive Reinforcement
+
+Routine confirmations should remain brief and unobtrusive.
+
+The interface should acknowledge successful actions without interrupting workflow or requiring unnecessary interaction.
+
+Feedback should support productivity rather than create additional work.
+
+---
+
+# Operational Transparency
+
+Where automation performs actions on behalf of the administrator, appropriate feedback should indicate:
+
+* the action performed;
+* the reason for the action;
+* the resulting operational state.
+
+Transparency strengthens trust in automated processes.
+
+---
+
+# Consistency
+
+Feedback should follow consistent language, styling, and behaviour throughout every EMMI module.
+
+Users should quickly recognise confirmation messages, warnings, and errors regardless of where they occur.
+
+Consistency reduces uncertainty.
+
+---
+
+# Future Evolution
+
+Future AI-assisted features may provide richer contextual feedback, intelligent explanations, and proactive operational guidance while remaining consistent with the principles established by this doctrine.
+
+---
+
+# Executive Context Summary
+
+This specification establishes operational feedback as a core component of the EMMI user experience. Every significant action should receive timely, meaningful, and constructive feedback, enabling administrators to work with confidence and maintain uninterrupted workflows. As the platform evolves, feedback should become increasingly informative without becoming intrusive.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

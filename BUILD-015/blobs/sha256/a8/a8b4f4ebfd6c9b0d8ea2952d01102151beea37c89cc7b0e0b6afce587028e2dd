@@ -1,0 +1,147 @@
+# MISSION-002-02 — Operational Intelligence Engine
+
+**Status:** DRAFT
+
+---
+
+# Purpose
+
+This document defines the constitutional role and responsibilities of
+the Operational Intelligence Engine (OIE).
+
+The OIE is the constitutional coordination layer of the EMMI
+Operational Intelligence Platform.
+
+It is responsible for understanding, coordinating and orchestrating
+operations.
+
+It is not responsible for owning operational data.
+
+---
+
+# Constitutional Role
+
+The Operational Intelligence Engine exists to transform operational
+information into operational understanding.
+
+It receives:
+
+- operational intent
+- operational events
+- operational state
+- delegated authority
+
+It produces:
+
+- operational awareness
+- recommendations
+- workflow orchestration
+- executive briefings
+- experience orchestration
+
+---
+
+# Constitutional Responsibilities
+
+The OIE owns the following architectural capabilities:
+
+- Operational Intent Interpretation
+- Operational Memory
+- Operational Knowledge
+- Operational Awareness
+- Operational Reasoning
+- Delegated Authority Evaluation
+- Workflow Orchestration
+- Executive Briefing
+- Experience Orchestration
+
+These capabilities operate together as one constitutional engine.
+
+---
+
+# Constitutional Boundaries
+
+The Operational Intelligence Engine shall not:
+
+- own operational records
+- duplicate domain services
+- bypass constitutional authority
+- execute actions beyond delegated authority
+- embed business logic within presentation interfaces
+
+---
+
+# Operational Relationships
+
+The OIE consumes services provided by Application Domain Services.
+
+The OIE coordinates operational workflows across those services.
+
+The OIE exposes operational intelligence to Presentation Interfaces.
+
+---
+
+# Interaction Model
+
+```
+Operational Intent
+        │
+        ▼
+Operational Intelligence Engine
+        │
+        ├── Understand
+        ├── Evaluate
+        ├── Coordinate
+        ├── Recommend
+        ├── Orchestrate
+        └── Inform
+        │
+        ▼
+Application Domain Services
+```
+
+---
+
+# Architectural Principle
+
+The Operational Intelligence Engine owns operational understanding.
+
+Application Domain Services own operational execution.
+
+Presentation Interfaces own operational presentation.
+
+Human Authority owns operational decisions.
+
+---
+
+# Subordinate Architecture
+
+The following constitutional architectural components are defined
+separately:
+
+- Operational Intent
+- Operational Memory
+- Operational Knowledge
+- Operational Awareness
+- Operational Reasoning
+- Delegated Authority
+- Workflow Orchestration
+- Executive Briefing
+- Experience Orchestration
+
+Each component defines one constitutional responsibility of the OIE.
+
+---
+
+# Completion Criteria
+
+This document is complete when:
+
+- the constitutional role of the OIE is defined
+- ownership boundaries are explicit
+- interaction responsibilities are clear
+- subordinate architectural components are identified
+
+---
+
+**End of Document**

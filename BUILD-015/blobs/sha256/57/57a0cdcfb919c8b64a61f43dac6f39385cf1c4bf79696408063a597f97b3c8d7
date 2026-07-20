@@ -1,0 +1,160 @@
+# EMMI - BUILD-015 - # Dashboard Philosophy
+
+**Status:** RATIFIED
+
+---
+
+## Purpose
+
+The dashboard exists to provide operational awareness rather than operational complexity.
+
+It shall present the right information, at the right level, to the right user, enabling rapid understanding and informed decision-making without overwhelming the operator.
+
+---
+
+## Core Principles
+
+The dashboard shall be:
+
+- simple to understand;
+- visually calm;
+- immediately actionable;
+- workflow-oriented;
+- progressively detailed; and
+- responsive across desktop and mobile devices.
+
+The dashboard is an operational control centre, not a reporting screen.
+
+---
+
+## Progressive Disclosure
+
+Information shall be revealed progressively.
+
+The initial dashboard shall display only the most important operational indicators.
+
+Additional detail shall become available by navigating into increasingly specialised dashboard views.
+
+This prevents information overload while ensuring that complete operational intelligence remains available.
+
+---
+
+## Dashboard Hierarchy
+
+The dashboard architecture shall consist of multiple logical layers.
+
+### Dashboard 1 — Executive Overview
+
+Provides an immediate operational snapshot.
+
+Typical information includes:
+
+- Today's operational status;
+- Retreat status;
+- Outstanding guest actions;
+- Pending reviews;
+- Capacity alerts;
+- Financial alerts;
+- Communication alerts; and
+- System health.
+
+This dashboard shall answer:
+
+> "What requires my attention right now?"
+
+---
+
+### Dashboard 2 — Operational Management
+
+Provides detailed operational management.
+
+Examples include:
+
+- Retreat management;
+- Guest workflow;
+- Accommodation;
+- Finance;
+- Communications;
+- Ceremonies;
+- Knowledge alerts; and
+- Staff tasks.
+
+---
+
+### Dashboard 3 — Specialist Views
+
+Provides role-specific operational intelligence.
+
+Examples include:
+
+- Medical review;
+- Risk assessment;
+- Financial reporting;
+- Accommodation planning;
+- Communication history;
+- Knowledge management; and
+- Administrative maintenance.
+
+---
+
+## Complete Operational View
+
+In addition to the visual dashboards, the system shall maintain a complete operational representation of every subsystem.
+
+This master operational state does not require a graphical dashboard.
+
+Instead, it may be represented internally as structured data suitable for:
+
+- JSON;
+- APIs;
+- exports;
+- diagnostics;
+- AI processing;
+- auditing; and
+- future dashboard generation.
+
+This complete operational model represents the single source of operational truth.
+
+---
+
+## Workflow Orientation
+
+Dashboards shall guide users through logical operational workflows.
+
+Where practical:
+
+- completed stages shall be clearly indicated;
+- the current stage shall be immediately identifiable; and
+- the next recommended action shall be obvious.
+
+Users should naturally progress through operations without unnecessary navigation or loss of context.
+
+---
+
+## Design Philosophy
+
+Visual design shall prioritise clarity over decoration.
+
+The interface shall minimise distractions while emphasising information requiring action.
+
+Every displayed element shall justify its presence through operational value.
+
+---
+
+## Future Evolution
+
+Additional dashboard views may be introduced as the platform evolves.
+
+Such additions shall preserve the principles of:
+
+- simplicity;
+- progressive disclosure;
+- operational clarity;
+- workflow continuity; and
+- consistency with the established dashboard architecture.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

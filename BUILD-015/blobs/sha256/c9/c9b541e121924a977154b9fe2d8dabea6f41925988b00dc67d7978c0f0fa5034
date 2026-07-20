@@ -1,0 +1,116 @@
+# M004-003 — Priority Order
+
+**Status:** DRAFT
+
+---
+
+# Purpose
+
+This document establishes the constitutional implementation priority order for BUILD-015.
+
+Its purpose is to ensure that implementation proceeds in a controlled, dependency-aware sequence that preserves constitutional integrity and minimises implementation risk.
+
+Implementation priority shall be determined by constitutional dependency rather than implementation convenience.
+
+---
+
+# Constitutional Principles
+
+Implementation shall proceed in an order that preserves the integrity of the published constitutional architecture.
+
+Capabilities providing constitutional foundations shall be implemented before capabilities that depend upon them.
+
+No implementation activity shall violate established dependency relationships.
+
+---
+
+# Priority Classification
+
+Implementation priorities shall be classified as:
+
+## Priority 1 — Foundational
+
+Capabilities that establish the constitutional and architectural foundations upon which subsequent implementation depends.
+
+These capabilities shall be completed before dependent implementation begins.
+
+---
+
+## Priority 2 — Core Operational
+
+Capabilities that provide the principal operational behaviour of the application.
+
+Implementation may commence only after Priority 1 validation has been completed.
+
+---
+
+## Priority 3 — Coordination
+
+Capabilities responsible for coordinating operational behaviour across multiple constitutional domains.
+
+Coordination capabilities shall build upon validated foundational and operational capabilities.
+
+---
+
+## Priority 4 — Presentation
+
+Capabilities responsible for operational presentation, executive visibility and user interaction.
+
+Presentation shall remain dependent upon validated operational behaviour.
+
+---
+
+## Priority 5 — Optimisation
+
+Capabilities intended to improve operational efficiency, usability or future extensibility without altering constitutional behaviour.
+
+Optimisation shall never precede constitutional implementation.
+
+---
+
+# Dependency Preservation
+
+Implementation sequencing shall preserve:
+
+- constitutional ownership
+- operational authority
+- responsibility boundaries
+- interface contracts
+- audit integrity
+- implementation traceability
+
+Dependencies shall be satisfied before implementation progresses.
+
+---
+
+# Change Control
+
+Implementation priorities may be adjusted only where constitutional dependency analysis demonstrates that an alternative sequence better preserves constitutional integrity.
+
+Implementation convenience alone shall not justify reprioritisation.
+
+---
+
+# Validation
+
+Before implementation progresses to the next priority level, it shall be verified that:
+
+- prerequisite work packages are complete
+- constitutional validation has passed
+- dependencies have been satisfied
+- implementation evidence has been recorded
+- no unresolved constitutional conflicts remain
+
+Progression without validation shall constitute constitutional non-compliance.
+
+---
+
+# Mission Outcome
+
+This directive establishes the constitutional priority framework governing implementation sequencing throughout BUILD-015, ensuring that implementation proceeds in a structured, dependency-aware and constitutionally compliant manner.
+
+---
+
+# Ratification Record
+
+**Status:** DRAFT

@@ -1,0 +1,132 @@
+# CI-002 — Domain Ownership
+
+**Status:** DRAFT
+
+## Purpose
+
+This directive establishes the constitutional ownership model governing all domains within the EMMI ecosystem.
+
+Its purpose is to ensure that every capability, module, service, dataset, interface, workflow and operational responsibility has a single, clearly defined constitutional owner.
+
+Constitutional ownership provides accountability, prevents functional overlap and preserves architectural integrity throughout the ecosystem.
+
+---
+
+# Constitutional Principles
+
+Every domain shall possess a clearly defined constitutional owner.
+
+Ownership shall be explicit, documented and discoverable.
+
+No operational capability shall exist without an accountable owning domain.
+
+Where ownership is uncertain, implementation shall not proceed until ownership has been constitutionally resolved.
+
+---
+
+# Domain Ownership Responsibilities
+
+Each constitutional domain is responsible for:
+
+- governing its own operational capabilities
+- maintaining the integrity of its internal architecture
+- defining its published interfaces
+- protecting its managed information
+- validating constitutional compliance
+- managing lifecycle evolution within its constitutional authority
+- maintaining operational documentation
+
+Ownership includes responsibility for both operation and governance.
+
+---
+
+# Ownership Boundaries
+
+A domain shall exercise authority only within its constitutionally defined boundary.
+
+A domain shall not:
+
+- modify another domain's internal responsibilities
+- assume ownership of external capabilities
+- bypass published interfaces
+- duplicate responsibilities already assigned elsewhere
+- redefine another domain's constitutional authority
+
+Cross-domain interaction shall occur only through authorised interfaces and approved operational contracts.
+
+---
+
+# Shared Capabilities
+
+Capabilities used by multiple domains shall remain constitutionally owned by a single authoritative domain.
+
+Other domains may consume those capabilities but shall not assume ownership of them.
+
+Shared use shall never imply shared ownership.
+
+---
+
+# Accountability
+
+Each domain owner is accountable for:
+
+- operational correctness
+- constitutional compliance
+- interface stability
+- information integrity
+- audit readiness
+- implementation quality
+- lifecycle governance
+
+Accountability shall remain traceable throughout the operational lifecycle.
+
+---
+
+# Delegation
+
+A domain owner may delegate operational activities where constitutionally authorised.
+
+Delegation transfers execution responsibility only.
+
+Constitutional ownership and accountability remain with the owning domain unless formally reassigned through constitutional governance.
+
+---
+
+# Constitutional Integrity
+
+Domain ownership shall preserve:
+
+- separation of responsibilities
+- architectural cohesion
+- operational consistency
+- implementation clarity
+- governance integrity
+- auditability
+
+No implementation convenience shall override constitutional ownership.
+
+---
+
+# Validation
+
+Before implementation, every significant capability shall be capable of answering:
+
+- Which domain owns this capability?
+- Who is constitutionally accountable?
+- What interfaces are authorised?
+- What responsibilities are delegated?
+- What constitutional boundaries apply?
+
+If these questions cannot be answered, constitutional ownership remains incomplete.
+
+---
+
+# Constitutional Outcome
+
+This directive establishes domain ownership as the constitutional mechanism through which accountability, governance, responsibility and architectural integrity are maintained across the EMMI ecosystem.
+
+---
+
+# Ratification Record
+
+**Status:** DRAFT

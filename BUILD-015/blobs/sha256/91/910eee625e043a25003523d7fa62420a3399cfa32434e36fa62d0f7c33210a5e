@@ -1,0 +1,151 @@
+# MISSION-002-07 — Presentation Architecture
+
+**Status:** DRAFT
+
+---
+
+# Purpose
+
+This document defines the constitutional Presentation Architecture of
+the EMMI Operational Intelligence Platform.
+
+Presentation Interfaces provide interaction between human users and the
+Operational Intelligence Engine.
+
+Presentation Interfaces present operational intelligence.
+
+They do not own operational logic.
+
+---
+
+# Constitutional Objective
+
+Separate presentation from operational intelligence while providing a
+consistent operational experience across all interfaces.
+
+Presentation shall remain interchangeable.
+
+Operational behaviour shall remain consistent.
+
+---
+
+# Presentation Hierarchy
+
+```
+Human User
+      │
+      ▼
+Presentation Interface
+      │
+      ▼
+Operational Intelligence Engine
+      │
+      ▼
+Application Domain Services
+```
+
+---
+
+# Constitutional Role
+
+Presentation Interfaces exist to:
+
+- present operational intelligence
+- receive operational intent
+- display operational state
+- present recommendations
+- request executive decisions
+- present operational experiences
+
+Presentation Interfaces do not evaluate operational state.
+
+Presentation Interfaces do not coordinate operational workflows.
+
+---
+
+# Supported Interfaces
+
+Examples include:
+
+- Administrative Dashboard
+- Public Website
+- Guest Portal
+- Mobile Interface
+- Voice Interface
+- Messaging Interfaces
+- External APIs
+
+All interfaces consume the same Operational Intelligence.
+
+---
+
+# Operational Behaviour
+
+Presentation Interfaces shall:
+
+- display operational state
+- collect user intent
+- present authorised actions
+- display recommendations
+- display operational context
+
+Operational behaviour shall remain consistent regardless of interface.
+
+---
+
+# Experience Principle
+
+Presentation adapts to:
+
+- operational context
+- user role
+- delegated authority
+- operational state
+
+Presentation shall not alter constitutional behaviour.
+
+Presentation customises experience.
+
+Operational Intelligence determines behaviour.
+
+---
+
+# Architectural Rules
+
+Presentation Interfaces shall not:
+
+- contain business rules
+- coordinate workflows
+- evaluate delegated authority
+- duplicate operational logic
+- maintain independent operational state
+
+These responsibilities belong exclusively to the Operational
+Intelligence Engine.
+
+---
+
+# Constitutional Principles
+
+Presentation owns interaction.
+
+Operational Intelligence owns understanding.
+
+Application Domains own execution.
+
+Human Authority owns decisions.
+
+---
+
+# Completion Criteria
+
+This document is complete when:
+
+- presentation responsibilities are defined
+- presentation boundaries are established
+- operational consistency is preserved
+- architectural separation is maintained
+
+---
+
+**End of Document**

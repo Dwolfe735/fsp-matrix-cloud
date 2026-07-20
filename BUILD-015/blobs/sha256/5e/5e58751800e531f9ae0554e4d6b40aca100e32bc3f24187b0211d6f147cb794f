@@ -1,0 +1,106 @@
+# REF-032 – Configuration Over Customisation Doctrine
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification establishes the Configuration Over Customisation doctrine for the EMMI platform.
+
+Its objective is to ensure that operational behaviour is adapted through configuration rather than modification of the underlying platform.
+
+Configuration preserves maintainability, simplifies upgrades, and enables future expansion without architectural fragmentation.
+
+---
+
+# Foundational Principle
+
+Operational variation shall be achieved through configuration wherever practical.
+
+Changes to operational behaviour should normally require adjustment of settings, policies, workflows, or business rules rather than modification of application code.
+
+The platform should adapt without being rewritten.
+
+---
+
+# Configuration Scope
+
+Configuration may include:
+
+* operational policies;
+* workflow options;
+* notification settings;
+* business rules;
+* dashboard layouts;
+* AI preferences;
+* reporting options;
+* user permissions.
+
+Configuration should remain understandable and appropriately governed.
+
+---
+
+# Separation from Implementation
+
+Configuration shall remain separate from implementation.
+
+Operational behaviour should be controlled through defined configuration mechanisms rather than embedded directly within application logic.
+
+This separation improves maintainability and reduces implementation risk.
+
+---
+
+# Controlled Flexibility
+
+Configuration should provide flexibility without compromising consistency.
+
+Administrators should be able to adapt operational behaviour while remaining within the architectural principles established by the platform.
+
+Flexibility should strengthen governance rather than weaken it.
+
+---
+
+# Default Behaviour
+
+Every configurable feature should provide sensible default behaviour.
+
+The platform should operate effectively with minimal configuration while allowing refinement where operational requirements justify it.
+
+Defaults should support the majority of operational scenarios.
+
+---
+
+# Governance
+
+Configuration changes that materially affect operational policy should remain subject to appropriate governance.
+
+Not every configuration option should be available to every user.
+
+Authority should reflect operational responsibility.
+
+---
+
+# Future Evolution
+
+Future versions of EMMI may introduce:
+
+* configuration profiles;
+* environment-specific configuration;
+* AI-assisted configuration recommendations;
+* configuration validation;
+* configuration versioning.
+
+These capabilities shall remain consistent with the principles established by this doctrine.
+
+---
+
+# Executive Context Summary
+
+This specification establishes Configuration Over Customisation as a core architectural doctrine for EMMI. By favouring controlled configuration instead of application modification, the platform becomes more maintainable, adaptable, and resilient while preserving architectural consistency. Future operational variation should be achieved through configuration wherever practical.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

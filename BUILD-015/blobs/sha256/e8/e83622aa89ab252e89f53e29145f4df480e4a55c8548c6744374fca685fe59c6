@@ -1,0 +1,144 @@
+# CI-010 — Operational Awareness
+
+**Status:** DRAFT
+
+## Purpose
+
+This directive establishes Operational Awareness as the constitutional capability responsible for maintaining a continuous, contextual understanding of the current operational condition of the EMMI ecosystem.
+
+Its purpose is to provide authorised operators and Operational Intelligence with an accurate representation of operational state, enabling timely, informed and constitutionally governed decision-making.
+
+---
+
+# Constitutional Principles
+
+Operational Awareness provides understanding of the present operational environment.
+
+Operational Awareness is derived from constitutionally authorised information.
+
+Operational Awareness is observational in nature.
+
+It shall inform operational judgement without altering constitutional ownership, authority or responsibility.
+
+---
+
+# Constitutional Responsibilities
+
+Operational Awareness is responsible for:
+
+- maintaining awareness of current operational conditions
+- identifying significant operational changes
+- recognising emerging operational risks
+- highlighting operational priorities
+- detecting operational anomalies
+- supporting executive visibility
+- providing contextual understanding for authorised decision-making
+
+---
+
+# Constitutional Boundaries
+
+Operational Awareness shall not:
+
+- replace Operational Intelligence
+- execute operational workflows
+- implement business logic
+- modify authoritative domain information
+- assume constitutional ownership of observed information
+
+Operational Awareness informs operational understanding without directing execution.
+
+---
+
+# Sources of Awareness
+
+Operational Awareness may be derived from constitutionally authorised information including:
+
+- application domain status
+- operational workflows
+- active operational activities
+- system events
+- operational metrics
+- approved notifications
+- executive indicators
+
+All observed information shall remain constitutionally owned by its originating domain.
+
+---
+
+# Relationship with Operational Memory
+
+Operational Memory preserves operational context.
+
+Operational Awareness interprets the current operational condition using that context together with authorised operational information.
+
+Operational Memory supports continuity.
+
+Operational Awareness supports understanding.
+
+---
+
+# Relationship with Operational Knowledge
+
+Operational Knowledge provides validated organisational understanding.
+
+Operational Awareness applies that knowledge to the current operational environment in order to support informed operational assessment.
+
+Knowledge informs awareness.
+
+Awareness reflects the present operational condition.
+
+---
+
+# Relationship with Operational Intelligence
+
+Operational Intelligence consumes Operational Awareness to:
+
+- prioritise operational activity
+- generate executive briefings
+- identify emerging situations
+- support delegated operational coordination
+- provide contextual recommendations
+
+Operational Awareness provides situational understanding but does not determine constitutional authority.
+
+---
+
+# Architectural Integrity
+
+Implementation shall preserve a clear distinction between:
+
+- Operational Awareness
+- Operational Memory
+- Operational Knowledge
+- Operational Intelligence
+- application domains
+- presentation
+
+Each constitutional capability shall retain its distinct purpose.
+
+---
+
+# Validation
+
+Before implementation, Operational Awareness shall be capable of answering:
+
+- What is the current operational condition?
+- What significant changes have occurred?
+- Which authorised domains contributed this awareness?
+- Has constitutional ownership been preserved?
+- Does this awareness support informed operational judgement without assuming operational authority?
+
+Failure to satisfy these questions indicates constitutional non-compliance.
+
+---
+
+# Constitutional Outcome
+
+This directive establishes Operational Awareness as the constitutional capability responsible for maintaining accurate, contextual understanding of the current operational environment while preserving constitutional ownership, operational integrity and informed decision-making.
+
+---
+
+# Ratification Record
+
+**Status:** DRAFT

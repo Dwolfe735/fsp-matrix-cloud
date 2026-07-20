@@ -1,0 +1,159 @@
+# MISSION-002-01 — Architectural Hierarchy
+
+**Status:** DRAFT
+
+---
+
+# Purpose
+
+This document defines the constitutional hierarchy of the EMMI
+Operational Intelligence Platform.
+
+It establishes the relationship between authority, intelligence,
+application services and presentation.
+
+No implementation detail is contained within this document.
+
+---
+
+# Architectural Hierarchy
+
+```
+Human Authority
+        │
+        ▼
+Operational Intent
+        │
+        ▼
+Operational Intelligence Engine
+        │
+        ▼
+Application Domain Services
+        │
+        ▼
+Presentation Interfaces
+```
+
+---
+
+# Layer Responsibilities
+
+## Human Authority
+
+Owns:
+
+- constitutional authority
+- operational objectives
+- delegated authority
+- executive decisions
+
+Human Authority remains the highest operational authority.
+
+---
+
+## Operational Intent
+
+Owns:
+
+- interpretation of executive objectives
+- operational objective formation
+
+Intent defines what is to be achieved.
+
+Intent does not define implementation.
+
+---
+
+## Operational Intelligence Engine
+
+Owns:
+
+- operational understanding
+- coordination
+- reasoning
+- orchestration
+- recommendations
+
+The Operational Intelligence Engine coordinates.
+
+It does not replace domain ownership.
+
+---
+
+## Application Domain Services
+
+Own authoritative operational domains.
+
+Examples include:
+
+- Guests
+- Finance
+- Retreat Operations
+- Communications
+- Tasks
+- Documents
+- Notifications
+- Validation
+
+Each module owns its own operational data and services.
+
+---
+
+## Presentation Interfaces
+
+Present operational intelligence.
+
+Examples:
+
+- Dashboard
+- Public Website
+- Mobile
+- Voice
+- External API
+
+Presentation interfaces shall not contain operational business logic.
+
+---
+
+# Constitutional Principle
+
+Every architectural responsibility shall belong to one constitutional
+layer.
+
+Responsibilities shall not overlap.
+
+Authority shall always remain above intelligence.
+
+Intelligence shall remain above execution.
+
+Presentation shall remain separate from operational logic.
+
+---
+
+# Architectural Objective
+
+This hierarchy provides:
+
+- clear ownership
+- separation of concerns
+- scalability
+- maintainability
+- constitutional integrity
+
+Every future capability shall identify its constitutional owner before
+implementation.
+
+---
+
+# Completion Criteria
+
+This document is complete when:
+
+- constitutional hierarchy is defined
+- ownership boundaries are clear
+- implementation layers are separated
+- authority relationships are established
+
+---
+
+**End of Document**

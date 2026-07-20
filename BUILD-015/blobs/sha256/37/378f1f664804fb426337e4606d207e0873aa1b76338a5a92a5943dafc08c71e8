@@ -1,0 +1,165 @@
+# REF-002 – Dashboard Architecture
+
+**Status:** RATIFIED
+
+---
+
+## Purpose
+
+The EMMI Dashboard Architecture defines how operational information is presented to different users without overwhelming them.
+
+Dashboards shall present information progressively, allowing users to move naturally from high-level operational awareness into increasingly detailed views.
+
+The dashboard system exists to improve operational clarity rather than simply display data.
+
+---
+
+## Architectural Principles
+
+The dashboard architecture shall:
+
+* present only information relevant to the current operational level;
+* minimise cognitive load;
+* avoid unnecessary visual complexity;
+* support rapid operational decision-making;
+* remain consistent throughout the system; and
+* permit expansion without architectural redesign.
+
+---
+
+## Dashboard Hierarchy
+
+The dashboard system shall consist of multiple operational layers.
+
+### Dashboard 1 — Executive Overview
+
+The primary operational dashboard.
+
+Designed for daily use.
+
+Displays only the most important operational indicators, including:
+
+* Retreat Status
+* Bookings
+* Applications Awaiting Review
+* Outstanding Deposits
+* Communications Requiring Action
+* Financial Snapshot
+* Accommodation Availability
+* System Health
+* Notifications
+
+This dashboard answers:
+
+> "What requires my attention right now?"
+
+---
+
+### Dashboard 2 — Operational Detail
+
+Provides drill-down access from Dashboard 1.
+
+Examples include:
+
+* Applications Queue
+* Guest Management
+* Communications
+* Finance
+* Accommodation
+* Retreat Operations
+* Ceremonies
+* Knowledge Alerts
+
+Each section provides operational tools specific to that function.
+
+---
+
+### Dashboard 3 — Specialist Workspaces
+
+Dedicated operational environments for individual functional areas.
+
+Examples:
+
+* Communications Centre
+* Finance Centre
+* Retreat Composer
+* Accommodation Planner
+* Knowledge Review
+* Guest Intelligence
+* Safety Review
+* Reporting
+
+Each workspace contains the full functionality for its operational domain.
+
+---
+
+### Dashboard 4 — Executive System Report
+
+Rather than a graphical dashboard, the complete system state shall be available as a structured machine-readable report.
+
+Preferred implementation:
+
+* JSON status report
+
+This report contains the complete operational state of EMMI, including all dashboard information and system metadata.
+
+Its purpose is:
+
+* diagnostics;
+* auditing;
+* AI consumption;
+* reporting;
+* external integrations; and
+* complete operational visibility.
+
+---
+
+## Progressive Disclosure
+
+Users should never be forced to view unnecessary information.
+
+Each dashboard shall expose only the information appropriate to its operational level while allowing seamless navigation into greater detail.
+
+---
+
+## Navigation Principles
+
+Movement between dashboards shall be intuitive.
+
+Users should always understand:
+
+* where they are;
+* what they are viewing;
+* what actions are available; and
+* how to return.
+
+Navigation shall preserve operational context wherever possible.
+
+---
+
+## Visual Design Principles
+
+Dashboards shall remain:
+
+* clean;
+* professional;
+* uncluttered;
+* consistent;
+* responsive; and
+* immediately understandable.
+
+Information hierarchy shall be achieved through organisation rather than excessive colour or decoration.
+
+---
+
+## Scalability
+
+Additional operational modules may be incorporated into the dashboard architecture without altering the overall hierarchy.
+
+Future expansion shall preserve the existing dashboard philosophy.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

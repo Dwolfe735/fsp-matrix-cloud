@@ -1,0 +1,152 @@
+# REF-015 – Information Hierarchy Doctrine
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification establishes the principles governing how information is organised, prioritised, and presented throughout the EMMI administration platform.
+
+The objective is to ensure that administrators always see the right information at the right time, without unnecessary distraction or information overload.
+
+---
+
+# Foundational Principle
+
+Not all information has equal importance.
+
+The interface shall present information according to operational relevance, ensuring that critical information receives immediate attention while secondary information remains readily accessible without dominating the workspace.
+
+---
+
+# Levels of Information
+
+Information should generally be organised into four levels.
+
+## Level 1 — Critical
+
+Information requiring immediate awareness or action.
+
+Examples include:
+
+* critical medical risks;
+* payment failures;
+* retreat capacity exceeded;
+* workflow exceptions;
+* system alerts.
+
+Critical information should always be highly visible.
+
+---
+
+## Level 2 — Operational
+
+Information supporting current administrative tasks.
+
+Examples include:
+
+* pending applications;
+* deposit status;
+* accommodation allocation;
+* guest communications;
+* upcoming retreats.
+
+Operational information should occupy the primary workspace.
+
+---
+
+## Level 3 — Reference
+
+Supporting information that may assist decision-making but is not continuously required.
+
+Examples include:
+
+* guest history;
+* previous communications;
+* guidance notes;
+* operational statistics;
+* historical reports.
+
+Reference information should be easily accessible through progressive disclosure.
+
+---
+
+## Level 4 — Administrative
+
+Configuration and maintenance information used infrequently.
+
+Examples include:
+
+* system settings;
+* configuration options;
+* diagnostic information;
+* maintenance tools;
+* archived records.
+
+Administrative information should remain available without cluttering operational workflows.
+
+---
+
+# Progressive Disclosure
+
+Only the information required for the current task should be presented initially.
+
+Additional detail should become available through logical expansion, drill-down, or dedicated views.
+
+The interface should reward curiosity without demanding attention.
+
+---
+
+# Information Grouping
+
+Related information should always appear together.
+
+Logical grouping improves comprehension and reduces the effort required to interpret operational data.
+
+Information should never appear fragmented across unrelated areas.
+
+---
+
+# Visual Priority
+
+Information hierarchy should be communicated through:
+
+* page structure;
+* headings;
+* spacing;
+* grouping;
+* restrained emphasis;
+* consistent typography.
+
+Visual priority should remain stable across every module.
+
+---
+
+# Decision Support
+
+Information should be presented where it contributes directly to operational decisions.
+
+Administrators should not need to search extensively for data required to complete the current workflow.
+
+Relevant information should appear naturally within its operational context.
+
+---
+
+# Future Evolution
+
+As EMMI expands, new modules shall adopt the established information hierarchy rather than introducing competing presentation models.
+
+Maintaining a consistent hierarchy preserves usability as the platform grows.
+
+---
+
+# Executive Context Summary
+
+This specification establishes the information hierarchy doctrine for EMMI. By presenting information according to operational importance and progressively revealing additional detail only when needed, the platform remains clear, efficient, and easy to navigate. Every future interface should reinforce this hierarchy, ensuring that critical information is always visible while supporting detail remains readily available without creating unnecessary complexity.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

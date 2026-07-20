@@ -1,0 +1,195 @@
+# REF-004 – Dashboard Navigation
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification defines the navigation philosophy used throughout the EMMI administration interface.
+
+Its objective is to minimise unnecessary navigation, reduce user confusion, and guide administrators through complete operational workflows.
+
+Navigation shall support the way people work rather than exposing the underlying software structure.
+
+---
+
+# Navigation Principles
+
+Navigation shall be:
+
+* intuitive;
+* consistent;
+* workflow-oriented;
+* progressive;
+* non-destructive;
+* easy to recover from.
+
+Users should always understand:
+
+* where they are;
+* what they are doing;
+* what happens next;
+* how to return if required.
+
+---
+
+# Workflow-First Navigation
+
+Navigation should follow operational processes rather than menu hierarchies.
+
+Typical workflow:
+
+Executive Dashboard
+
+↓
+
+Retreat
+
+↓
+
+Guest Applications
+
+↓
+
+Application Review
+
+↓
+
+Guest Record
+
+↓
+
+Communication
+
+↓
+
+Deposit
+
+↓
+
+Booking Confirmation
+
+The user should be able to progress naturally through each stage without repeatedly returning to a parent menu.
+
+---
+
+# Context Preservation
+
+Whenever practical, the system shall preserve operational context.
+
+Examples include:
+
+* returning to the previous filtered list;
+* maintaining search criteria;
+* remembering selected retreat;
+* retaining pagination;
+* preserving dashboard selections.
+
+Administrators should not lose their working context after completing an action.
+
+---
+
+# Logical Next Actions
+
+Each page should present the most likely next actions.
+
+Examples:
+
+After approving an application:
+
+* Send Approval Email
+* Copy WhatsApp Message
+* Enable Deposit
+* View Guest Record
+
+After confirming payment:
+
+* Confirm Booking
+* Allocate Accommodation
+* View Retreat
+
+The interface should encourage forward progression through the workflow.
+
+---
+
+# Breadcrumb Navigation
+
+Where appropriate, pages should display a breadcrumb trail.
+
+Example:
+
+Dashboard → Retreats → Autumn Retreat → Applications → Guest Review
+
+Breadcrumbs provide orientation without replacing the primary navigation.
+
+---
+
+# Menu Consistency
+
+The primary navigation menu shall remain consistent throughout the administration interface.
+
+Major operational areas should always appear in the same location and order.
+
+Interface consistency reduces cognitive load and shortens the learning curve.
+
+---
+
+# Action Visibility
+
+Frequently used actions should remain immediately accessible.
+
+Critical actions should never be hidden behind unnecessary menus or excessive navigation.
+
+Common operations should require as few interactions as practical.
+
+---
+
+# Error Recovery
+
+Navigation should make recovery from mistakes straightforward.
+
+Users should be able to:
+
+* cancel operations safely;
+* return to previous pages;
+* continue interrupted workflows;
+* recover without losing entered information where possible.
+
+---
+
+# Mobile Navigation
+
+Navigation shall remain fully usable on tablets and mobile devices.
+
+Menus should adapt responsively while preserving the same logical workflow as the desktop interface.
+
+---
+
+# Accessibility
+
+Navigation should remain clear and accessible for users with varying levels of technical experience.
+
+Icons should complement descriptive labels rather than replace them.
+
+Navigation should prioritise clarity over visual complexity.
+
+---
+
+# Future Expansion
+
+The navigation framework should accommodate future modules without requiring redesign of the overall user experience.
+
+New functionality should integrate naturally into the existing navigation philosophy.
+
+---
+
+# Executive Context Summary
+
+This specification establishes a workflow-first navigation model for EMMI. Rather than forcing administrators to repeatedly navigate through menus, the interface should guide users naturally from one operational step to the next while preserving context wherever possible. The objective is to reduce friction, minimise unnecessary clicks, and create an administration experience that feels intuitive regardless of system growth.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

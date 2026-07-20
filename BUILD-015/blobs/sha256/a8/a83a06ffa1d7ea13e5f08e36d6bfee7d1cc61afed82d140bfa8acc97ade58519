@@ -1,0 +1,128 @@
+# REF-027 – Event-Driven Architecture Doctrine
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification establishes the Event-Driven Architecture doctrine for the EMMI platform.
+
+Its objective is to ensure that significant operational events become the driving force behind workflows, automation, notifications, reporting, and future AI capabilities.
+
+Rather than requiring every module to continually check for changes, the platform should respond intelligently when important events occur.
+
+---
+
+# Foundational Principle
+
+Operational events shall initiate operational behaviour.
+
+When a meaningful event occurs, the platform should automatically determine which workflows, notifications, updates, and processes should follow.
+
+Events represent operational facts that trigger operational responses.
+
+---
+
+# Operational Events
+
+Examples of operational events include:
+
+* application submitted;
+* questionnaire reviewed;
+* guest approved;
+* deposit received;
+* booking confirmed;
+* accommodation allocated;
+* retreat published;
+* communication delivered;
+* guest checked in;
+* retreat completed.
+
+Each event represents a meaningful change in operational state.
+
+---
+
+# Event Processing
+
+Operational events may trigger one or more subsequent actions.
+
+Examples include:
+
+* updating workflow status;
+* generating notifications;
+* refreshing dashboards;
+* recording audit entries;
+* initiating AI analysis;
+* scheduling follow-up tasks.
+
+Each action should remain consistent with the platform's governance and workflow rules.
+
+---
+
+# Decoupled Architecture
+
+Modules should respond to operational events without creating unnecessary direct dependencies upon one another.
+
+This promotes:
+
+* modularity;
+* scalability;
+* maintainability;
+* future extensibility.
+
+The platform should evolve through event participation rather than tight integration.
+
+---
+
+# Auditability
+
+Significant events should form part of the operational audit history.
+
+Where appropriate, the platform should retain:
+
+* the event;
+* the time it occurred;
+* the initiating source;
+* the resulting actions.
+
+Events provide a chronological record of operational activity.
+
+---
+
+# AI Integration
+
+Artificial intelligence should utilise operational events to provide:
+
+* intelligent summaries;
+* anomaly detection;
+* workflow recommendations;
+* predictive operational insights.
+
+AI should interpret operational activity through events rather than isolated records.
+
+---
+
+# Future Evolution
+
+Future versions of EMMI may introduce:
+
+* configurable event subscriptions;
+* external event integrations;
+* workflow orchestration;
+* intelligent event prioritisation;
+* real-time operational monitoring.
+
+These enhancements shall remain aligned with the principles established by this doctrine.
+
+---
+
+# Executive Context Summary
+
+This specification establishes Event-Driven Architecture as a foundational principle of EMMI. By treating significant operational changes as events that naturally initiate workflows, notifications, auditing, and AI assistance, the platform becomes more modular, responsive, and extensible. This doctrine provides an architectural foundation for future automation while preserving clarity, governance, and operational consistency.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

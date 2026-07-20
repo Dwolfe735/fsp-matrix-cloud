@@ -1,0 +1,1 @@
+{"build_id":"aa3588321f5d6c671b7fbc6fb4e2faa3f26235ae9a634adcb674cd83929dca08","checks":{"blob_fidelity":true,"chunk_integrity":true,"graph_consistency":true,"merged_documents":true,"package_payload":true,"traceability":true},"errors":[],"schema":"mkc.validation/v1","valid":true}

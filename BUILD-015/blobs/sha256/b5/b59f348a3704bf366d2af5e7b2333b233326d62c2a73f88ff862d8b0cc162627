@@ -1,0 +1,123 @@
+# REF-021 – Operational Transparency Doctrine
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification establishes the doctrine of operational transparency throughout the EMMI platform.
+
+Its objective is to ensure that administrators always understand what the system is doing, why it is doing it, and how operational decisions and automated processes affect the platform.
+
+---
+
+# Foundational Principle
+
+A trustworthy system should never behave like a black box.
+
+EMMI shall make significant operational activities visible and understandable without exposing unnecessary technical complexity.
+
+Transparency builds confidence.
+
+---
+
+# Transparent Operations
+
+Administrators should be able to determine:
+
+* what action occurred;
+* when it occurred;
+* who initiated it;
+* why it occurred;
+* what the resulting operational state is.
+
+Operational events should never appear mysterious or unexplained.
+
+---
+
+# Automation Visibility
+
+Whenever automation performs an operational task, the administrator should be informed where appropriate.
+
+Examples include:
+
+* automatic workflow progression;
+* reminder generation;
+* status updates;
+* scheduled maintenance tasks;
+* AI recommendations.
+
+Automation should remain visible without becoming intrusive.
+
+---
+
+# Decision Traceability
+
+Where significant operational decisions are made, the system should preserve an understandable record of the decision process.
+
+Examples include:
+
+* guest approval decisions;
+* payment confirmations;
+* accommodation allocations;
+* safety reviews;
+* administrative overrides.
+
+Traceability supports accountability.
+
+---
+
+# Explainable AI
+
+Where AI contributes recommendations or analysis, the administrator should be able to understand:
+
+* the recommendation;
+* the supporting information;
+* any identified uncertainty;
+* the available alternatives where appropriate.
+
+AI should explain rather than simply conclude.
+
+---
+
+# Audit Support
+
+Operational transparency should naturally support auditing.
+
+Significant activities should be capable of being reviewed retrospectively without requiring reconstruction from multiple sources.
+
+Transparency simplifies governance.
+
+---
+
+# User Confidence
+
+Administrators should never need to guess:
+
+* whether an action completed;
+* why information changed;
+* why a recommendation appeared;
+* why an alert was generated.
+
+The platform should communicate these matters clearly.
+
+---
+
+# Future Evolution
+
+As automation and AI capabilities expand, operational transparency shall remain a mandatory architectural principle.
+
+Increasing system intelligence must never reduce administrator understanding.
+
+---
+
+# Executive Context Summary
+
+This specification establishes operational transparency as a permanent doctrine within EMMI. Every significant system action, automated process, and AI recommendation should remain understandable, traceable, and accountable. By ensuring that administrators always know what the platform is doing and why, EMMI strengthens operational trust, governance, and long-term maintainability.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

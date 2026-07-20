@@ -1,0 +1,124 @@
+# REF-013 – AI Collaboration Philosophy
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification establishes the philosophy governing the collaboration between human administrators and artificial intelligence within EMMI.
+
+The objective is to ensure that AI functions as a trusted operational partner, enhancing productivity, consistency, and decision support while preserving human authority and accountability.
+
+---
+
+# Foundational Principle
+
+Artificial intelligence exists to assist human operators.
+
+AI shall enhance operational capability by reducing repetitive work, presenting relevant information, identifying patterns, and recommending actions.
+
+Responsibility for operational decisions shall remain with authorised human administrators unless future governance explicitly delegates specific authority.
+
+---
+
+# Collaborative Intelligence
+
+EMMI adopts a model of collaborative intelligence.
+
+Under this model:
+
+* humans provide judgement;
+* AI provides analysis;
+* humans retain authority;
+* AI enhances consistency;
+* both contribute to improved operational outcomes.
+
+The objective is partnership rather than replacement.
+
+---
+
+# Explainable Assistance
+
+AI recommendations should always be understandable.
+
+Where practical, AI should communicate:
+
+* what it recommends;
+* why it recommends it;
+* which information influenced the recommendation;
+* any uncertainty associated with the recommendation.
+
+Transparent reasoning builds trust.
+
+---
+
+# Context Awareness
+
+AI should utilise available operational context to improve assistance.
+
+Examples include:
+
+* retreat status;
+* guest history;
+* communication records;
+* financial status;
+* accommodation availability;
+* operational priorities.
+
+Recommendations should remain relevant to the administrator's current task.
+
+---
+
+# Human Override
+
+Administrators shall always retain the ability to accept, modify, or reject AI recommendations.
+
+Human judgement takes precedence whenever operational circumstances require.
+
+AI should never prevent authorised administrative decisions.
+
+---
+
+# Learning Through Refinement
+
+As EMMI evolves, AI capabilities should improve through controlled refinement rather than unpredictable behavioural change.
+
+Enhancements should strengthen consistency, reliability, and operational usefulness without altering the underlying governance philosophy.
+
+---
+
+# Ethical Operation
+
+AI assistance shall operate in accordance with EMMI's constitutional principles.
+
+Recommendations should support fairness, transparency, safety, and responsible administration.
+
+Operational integrity shall always take precedence over automation.
+
+---
+
+# Future Vision
+
+Future AI capabilities may include:
+
+* operational summaries;
+* predictive workload analysis;
+* intelligent scheduling assistance;
+* anomaly detection;
+* workflow optimisation;
+* conversational operational guidance.
+
+All future developments shall remain consistent with the collaborative philosophy established by this doctrine.
+
+---
+
+# Executive Context Summary
+
+This specification establishes AI as a collaborative operational partner within EMMI. Rather than replacing human administrators, AI is intended to enhance their effectiveness through contextual assistance, transparent recommendations, and intelligent automation while preserving human authority, accountability, and governance. This philosophy provides the foundation for all future AI integration across the platform.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

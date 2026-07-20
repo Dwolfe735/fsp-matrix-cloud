@@ -1,0 +1,156 @@
+# REF-005 – Visual Status Indicators
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification defines the standard visual status indicator system used throughout the EMMI administration interface.
+
+Its objective is to provide immediate operational awareness through a consistent set of visual indicators, enabling administrators to identify system status and required actions at a glance.
+
+---
+
+# Design Principles
+
+Visual indicators shall be:
+
+* simple;
+* consistent;
+* immediately recognisable;
+* used sparingly;
+* colour-independent where practical;
+* accessible to all users.
+
+Status indicators should communicate operational significance without overwhelming the interface.
+
+---
+
+# Standard Status Indicators
+
+The following indicators shall be used consistently throughout EMMI.
+
+| Indicator | Meaning                   |
+| --------- | ------------------------- |
+| 🟢        | Normal / Complete         |
+| 🟡        | Attention Required        |
+| 🔴        | Immediate Action Required |
+| 🔵        | Informational             |
+| ⚪         | Not Applicable / Inactive |
+
+No additional status colours should be introduced unless formally approved through architectural refinement.
+
+---
+
+# Operational Meaning
+
+## 🟢 Normal
+
+Indicates that an item requires no further action.
+
+Examples include:
+
+* booking confirmed;
+* payment received;
+* accommodation allocated;
+* workflow completed.
+
+---
+
+## 🟡 Attention Required
+
+Indicates that an administrator should review or complete an outstanding task.
+
+Examples include:
+
+* application awaiting review;
+* deposit pending;
+* reminder due;
+* allocation incomplete.
+
+---
+
+## 🔴 Immediate Action Required
+
+Indicates an issue requiring prompt administrative attention.
+
+Examples include:
+
+* critical medical flag;
+* payment failure;
+* retreat capacity exceeded;
+* communication failure.
+
+---
+
+## 🔵 Informational
+
+Used to present useful information without implying action is required.
+
+Examples include:
+
+* published notices;
+* completed reports;
+* archived records;
+* system information.
+
+---
+
+## ⚪ Not Applicable
+
+Used where a status does not currently apply.
+
+Examples include:
+
+* inactive module;
+* optional workflow;
+* unavailable function.
+
+---
+
+# Consistency Rules
+
+Status indicators shall retain the same meaning throughout every module.
+
+A colour must never represent different meanings in different parts of the system.
+
+Consistency improves recognition and reduces user error.
+
+---
+
+# Supporting Text
+
+Colour should not be the sole method of communication.
+
+Where appropriate, indicators should be accompanied by descriptive text, labels, or tooltips.
+
+This improves accessibility and usability.
+
+---
+
+# Alerts and Notifications
+
+Status indicators should draw attention without becoming distracting.
+
+Only genuine operational issues should generate warning or critical indicators.
+
+Avoid unnecessary visual noise.
+
+---
+
+# Future Expansion
+
+Additional visual indicators may be introduced where justified, provided they maintain consistency with the existing system and are formally ratified.
+
+---
+
+# Executive Context Summary
+
+This specification standardises the visual status indicator system used throughout EMMI. By assigning consistent operational meanings to a small set of indicators, administrators can rapidly assess system state, identify priorities, and navigate workflows with confidence. The emphasis is on clarity, consistency, and restrained use to maximise effectiveness.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

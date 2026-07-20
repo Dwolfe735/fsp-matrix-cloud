@@ -1,0 +1,145 @@
+# MISSION-002-03 — Application Domain Architecture
+
+**Status:** DRAFT
+
+---
+
+# Purpose
+
+This document defines the constitutional architecture of the
+Application Domain Services.
+
+Application Domain Services provide the operational capabilities of
+EMMI.
+
+Each service owns one operational domain.
+
+Operational Intelligence coordinates those services but does not own
+their operational responsibilities.
+
+---
+
+# Constitutional Role
+
+Application Domain Services provide authoritative operational services
+to the Operational Intelligence Engine.
+
+Each domain remains independently responsible for its own operational
+records, validation, rules and lifecycle.
+
+---
+
+# Constitutional Principle
+
+Each operational responsibility shall belong to one Application Domain
+Service.
+
+Domain responsibilities shall not overlap.
+
+Operational Intelligence coordinates domains.
+
+Domains do not coordinate one another.
+
+---
+
+# Constitutional Domains
+
+Examples include:
+
+- Guest Management
+- Retreat Operations
+- Finance
+- Communications
+- Tasks
+- Documents
+- Notifications
+- Validation
+- Configuration
+- Reporting
+
+Additional domains may be introduced provided they maintain exclusive
+ownership of their operational responsibilities.
+
+---
+
+# Domain Responsibilities
+
+Each domain shall own:
+
+- operational data
+- operational validation
+- operational services
+- operational state
+- domain-specific business rules
+
+Domains shall not own:
+
+- executive reasoning
+- cross-domain coordination
+- operational prioritisation
+- executive presentation
+- delegated authority evaluation
+
+Those responsibilities belong to the Operational Intelligence Engine.
+
+---
+
+# Operational Relationship
+
+```
+Operational Intelligence Engine
+            │
+            ▼
+Application Domain Service
+            │
+            ▼
+Operational Records
+            │
+            ▼
+Operational Events
+```
+
+Each domain publishes operational events.
+
+The Operational Intelligence Engine determines whether coordination is
+required.
+
+---
+
+# Architectural Rules
+
+Application Domain Services shall:
+
+- remain independently testable
+- remain independently maintainable
+- expose defined service interfaces
+- publish operational events
+- preserve domain integrity
+
+Application Domain Services shall not directly orchestrate other
+domains.
+
+---
+
+# Scalability
+
+New Application Domain Services may be introduced without modifying the
+constitutional responsibilities of existing domains.
+
+The Operational Intelligence Engine remains the coordination layer for
+all domains.
+
+---
+
+# Completion Criteria
+
+This document is complete when:
+
+- domain ownership is defined
+- constitutional boundaries are established
+- coordination responsibilities are separated
+- scalability principles are preserved
+
+---
+
+**End of Document**

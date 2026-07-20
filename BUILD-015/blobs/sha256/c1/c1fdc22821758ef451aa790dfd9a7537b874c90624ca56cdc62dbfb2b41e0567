@@ -1,0 +1,118 @@
+# REF-025 – Information Integrity Doctrine
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification establishes the doctrine of information integrity throughout the EMMI platform.
+
+Its objective is to ensure that operational information remains accurate, consistent, trustworthy, and suitable for informed decision-making throughout its lifecycle.
+
+---
+
+# Foundational Principle
+
+Reliable decisions depend upon reliable information.
+
+EMMI shall preserve the integrity of operational information from initial capture through processing, reporting, archival, and future reference.
+
+Information integrity is a prerequisite for operational trust.
+
+---
+
+# Accuracy
+
+Information should accurately represent the operational reality it describes.
+
+Where practical, the system should assist administrators through:
+
+* input validation;
+* consistency checks;
+* duplicate detection;
+* mandatory information where appropriate;
+* controlled workflows.
+
+The objective is to prevent errors before they occur.
+
+---
+
+# Consistency
+
+A single operational fact should exist only once within the platform.
+
+Where information is displayed in multiple locations, every representation shall reflect the same underlying source of truth.
+
+Consistency eliminates ambiguity.
+
+---
+
+# Completeness
+
+Operational records should contain sufficient information to support the decisions for which they are intended.
+
+The system should identify incomplete information where it may affect operational outcomes.
+
+Administrators should be guided towards completing essential records.
+
+---
+
+# Traceability
+
+Significant operational information should remain traceable throughout its lifecycle.
+
+Where appropriate, the system should preserve:
+
+* creation history;
+* modification history;
+* responsible administrator;
+* significant workflow events.
+
+Traceability strengthens governance and accountability.
+
+---
+
+# Controlled Change
+
+Operational information should evolve through controlled processes.
+
+Important changes should occur deliberately, be appropriately authorised, and remain understandable when reviewed retrospectively.
+
+Information should not change without accountability.
+
+---
+
+# Decision Confidence
+
+Administrators should be able to rely upon the information presented by the platform.
+
+Where uncertainty exists, the system should communicate that uncertainty clearly rather than implying false precision.
+
+Confidence should be earned through integrity.
+
+---
+
+# Future Evolution
+
+Future capabilities may include:
+
+* automated integrity monitoring;
+* AI-assisted anomaly detection;
+* cross-module validation;
+* predictive data quality analysis;
+* integrity dashboards.
+
+These enhancements shall strengthen, rather than replace, the principles established by this doctrine.
+
+---
+
+# Executive Context Summary
+
+This specification establishes information integrity as a foundational architectural doctrine for EMMI. By ensuring that operational information remains accurate, consistent, complete, traceable, and trustworthy, the platform provides administrators with the confidence required to make informed operational decisions. Every future enhancement should reinforce the integrity of information as one of EMMI's most valuable assets.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

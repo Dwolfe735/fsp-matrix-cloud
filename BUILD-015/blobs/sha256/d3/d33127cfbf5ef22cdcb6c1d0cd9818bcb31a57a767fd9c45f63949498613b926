@@ -1,0 +1,146 @@
+# REF-009 – Design Language & User Experience
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification defines the overarching design language and user experience principles for the EMMI administration platform.
+
+Its purpose is to ensure that every interface element contributes to a coherent, professional, and intuitive operational environment.
+
+---
+
+# Design Philosophy
+
+EMMI shall present itself as a professional operational platform rather than a traditional administration website.
+
+The interface should communicate confidence, clarity, and calm efficiency.
+
+Users should feel guided by the system rather than burdened by it.
+
+---
+
+# Core Principles
+
+The design language shall emphasise:
+
+* clarity;
+* consistency;
+* simplicity;
+* professionalism;
+* restraint;
+* usability.
+
+Every visual element should have a functional purpose.
+
+Decoration should never take precedence over usability.
+
+---
+
+# Visual Consistency
+
+All interface elements shall follow a unified visual language.
+
+This includes consistent use of:
+
+* typography;
+* spacing;
+* iconography;
+* colours;
+* buttons;
+* tables;
+* forms;
+* cards;
+* status indicators.
+
+Consistency creates familiarity and reduces cognitive effort.
+
+---
+
+# Calm Interface
+
+The administration environment should remain visually calm.
+
+The interface should avoid:
+
+* excessive colours;
+* unnecessary animations;
+* decorative graphics;
+* competing visual elements;
+* information overload.
+
+Attention should be drawn only to information requiring action.
+
+---
+
+# Recognition Over Recall
+
+Wherever practical, users should recognise available actions rather than remember them.
+
+The interface should favour:
+
+* clearly labelled controls;
+* familiar layouts;
+* visible workflows;
+* logical grouping;
+* descriptive actions.
+
+Reducing memory requirements improves efficiency and lowers training needs.
+
+---
+
+# Progressive Complexity
+
+Simple tasks should remain simple.
+
+Advanced capabilities should become visible only when required.
+
+The system should accommodate both occasional users and experienced administrators without compromising either experience.
+
+---
+
+# Feedback
+
+Every meaningful user action should produce clear feedback.
+
+Examples include:
+
+* confirmation messages;
+* progress indicators;
+* validation messages;
+* success notifications;
+* meaningful error explanations.
+
+Users should never be uncertain whether an action has succeeded.
+
+---
+
+# Trust Through Predictability
+
+The interface should behave consistently across every module.
+
+Identical actions should produce identical outcomes regardless of location within the system.
+
+Predictability builds operational trust.
+
+---
+
+# Future Evolution
+
+As EMMI grows, new modules and capabilities shall adopt the established design language.
+
+The objective is to ensure that future expansion strengthens the overall user experience rather than fragmenting it.
+
+---
+
+# Executive Context Summary
+
+This specification establishes the enduring design language for EMMI. By prioritising clarity, consistency, predictability, and restrained visual design, the platform provides a calm and professional operational experience. Every future interface should reinforce these principles, ensuring that the system remains intuitive and cohesive as it evolves.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

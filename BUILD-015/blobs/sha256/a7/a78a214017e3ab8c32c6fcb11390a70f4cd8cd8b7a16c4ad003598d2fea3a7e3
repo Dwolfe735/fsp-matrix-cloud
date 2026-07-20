@@ -1,0 +1,115 @@
+# MISSION-002-08 — Blueprint Validation & Compliance
+
+**Status:** DRAFT
+
+---
+
+# Purpose
+
+This document defines the constitutional validation requirements for
+the Operational Intelligence Blueprint.
+
+Its purpose is to ensure that future implementation remains aligned
+with the reconciled BUILD-015 architecture.
+
+---
+
+# Constitutional Objective
+
+Every implementation shall demonstrate constitutional conformity with
+the Operational Intelligence Blueprint before acceptance.
+
+The blueprint is the authoritative architectural reference for
+implementation.
+
+---
+
+# Architectural Compliance
+
+Every implementation shall identify:
+
+- constitutional owner
+- architectural layer
+- operational responsibility
+- information flow
+- authority flow
+- event interaction
+- presentation relationship
+
+No implementation shall bypass the constitutional architecture.
+
+---
+
+# Validation Questions
+
+Every proposed capability shall answer:
+
+1. Which constitutional layer owns this capability?
+
+2. Which architectural component is responsible?
+
+3. Which Application Domain Service owns the operational records?
+
+4. Does the capability introduce cross-domain coordination?
+
+5. If yes, is coordination performed through the Operational
+   Intelligence Engine?
+
+6. Does the capability alter authority?
+
+7. If yes, is delegated authority explicitly defined?
+
+8. Does the capability preserve auditability?
+
+9. Does the capability preserve architectural separation?
+
+---
+
+# Constitutional Compliance
+
+Implementation shall not:
+
+- duplicate constitutional responsibilities
+- bypass the Operational Intelligence Engine
+- violate domain ownership
+- embed operational logic within presentation
+- execute actions without constitutional authority
+
+---
+
+# Architectural Integrity
+
+Where implementation conflicts with the blueprint:
+
+The blueprint shall be considered authoritative.
+
+Implementation shall be revised.
+
+Architectural changes require explicit constitutional approval.
+
+---
+
+# Codex Directive
+
+Codex shall:
+
+- implement architecture
+- not redesign architecture
+- report architectural ambiguity
+- preserve constitutional separation
+- preserve architectural integrity
+
+---
+
+# Completion Criteria
+
+Blueprint validation is complete when:
+
+- architectural ownership remains explicit
+- constitutional boundaries remain intact
+- implementation demonstrates blueprint compliance
+- architectural integrity is preserved
+
+---
+
+**End of Document**

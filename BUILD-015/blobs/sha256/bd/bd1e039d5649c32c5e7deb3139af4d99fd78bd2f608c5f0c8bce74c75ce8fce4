@@ -1,0 +1,152 @@
+# REF-007 – Interface Design Principles
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification establishes the core interface design principles that shall govern the development of every EMMI administration screen.
+
+Its objective is to ensure a consistent, intuitive, and professional user experience regardless of future system growth.
+
+---
+
+# Design Philosophy
+
+The EMMI interface shall prioritise:
+
+* simplicity over complexity;
+* clarity over decoration;
+* workflow over hierarchy;
+* consistency over novelty;
+* efficiency over unnecessary interaction.
+
+Every screen should help the user complete a task with the minimum possible effort.
+
+---
+
+# User-Centred Design
+
+Interfaces shall be designed around how administrators actually work.
+
+The system should adapt to operational workflows rather than requiring users to adapt to software limitations.
+
+Frequently used actions should always be the easiest to perform.
+
+---
+
+# Consistency
+
+All modules shall maintain consistent:
+
+* layouts;
+* typography;
+* spacing;
+* button placement;
+* terminology;
+* navigation patterns;
+* visual indicators.
+
+Consistency reduces training requirements and increases user confidence.
+
+---
+
+# Simplicity
+
+Each screen should present only the information required for the current task.
+
+Secondary information should remain available but should not distract from the primary workflow.
+
+Complexity should be revealed progressively rather than displayed all at once.
+
+---
+
+# Visual Hierarchy
+
+Important information should naturally attract attention.
+
+Visual emphasis should be achieved through:
+
+* positioning;
+* spacing;
+* headings;
+* grouping;
+* restrained use of colour.
+
+The interface should avoid excessive decoration or unnecessary visual effects.
+
+---
+
+# Progressive Disclosure
+
+Advanced options should appear only when relevant.
+
+Routine users should never be overwhelmed by features intended for exceptional situations.
+
+This approach keeps everyday workflows fast while retaining full system capability.
+
+---
+
+# Responsive Design
+
+The interface shall function effectively across:
+
+* desktop computers;
+* laptops;
+* tablets;
+* mobile devices.
+
+Layouts should adapt responsively without changing the underlying workflow.
+
+---
+
+# Accessibility
+
+The interface shall remain usable by individuals with varying technical abilities.
+
+Design should support:
+
+* clear typography;
+* sufficient contrast;
+* descriptive labels;
+* keyboard accessibility where practical;
+* colour-independent understanding.
+
+Accessibility should be considered a standard design requirement rather than an optional enhancement.
+
+---
+
+# Error Prevention
+
+The interface should seek to prevent mistakes before they occur.
+
+Examples include:
+
+* confirmation for destructive actions;
+* validation before submission;
+* clear error messages;
+* sensible defaults;
+* logical workflow sequencing.
+
+Preventing errors is preferable to correcting them.
+
+---
+
+# Future Evolution
+
+The interface framework shall be capable of accommodating future modules and features without requiring fundamental redesign.
+
+New functionality should integrate naturally into the established design language.
+
+---
+
+# Executive Context Summary
+
+This specification defines the enduring interface design philosophy for EMMI. By prioritising simplicity, consistency, workflow, accessibility, and progressive disclosure, the administration interface remains intuitive as the platform evolves. Every future screen should reflect these principles, ensuring a cohesive experience across the entire system.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

@@ -1,0 +1,140 @@
+# M004-005 — Validation Gates
+
+**Status:** DRAFT
+
+---
+
+# Purpose
+
+This document establishes the constitutional validation framework governing progression throughout the BUILD-015 implementation programme.
+
+Its purpose is to ensure that implementation advances only after constitutional, architectural and implementation requirements have been verified and accepted.
+
+Validation gates preserve implementation integrity by preventing unauthorised progression through the implementation lifecycle.
+
+---
+
+# Constitutional Principles
+
+Every implementation stage shall conclude with constitutional validation.
+
+Progression shall occur only after successful completion of the applicable validation gate.
+
+Validation exists to verify constitutional conformity rather than implementation progress alone.
+
+No implementation activity shall bypass an established validation gate.
+
+---
+
+# Validation Objectives
+
+Validation gates shall confirm that:
+
+- constitutional intent has been preserved
+- implementation satisfies published directives
+- architectural integrity remains intact
+- dependencies have been resolved
+- implementation evidence is complete
+- implementation is suitable to progress
+
+Validation shall be evidence-based and independently reviewable.
+
+---
+
+# Validation Categories
+
+Validation activities may include:
+
+- constitutional validation
+- architectural validation
+- implementation validation
+- interface validation
+- workflow validation
+- audit validation
+- traceability validation
+- operational validation
+
+Each category shall be applied where constitutionally appropriate.
+
+---
+
+# Gate Progression
+
+Each validation gate shall determine one of the following outcomes:
+
+## PASS
+
+Implementation satisfies all constitutional requirements.
+
+Progression to the next implementation stage is authorised.
+
+---
+
+## PASS WITH OBSERVATIONS
+
+Implementation satisfies constitutional requirements.
+
+Observations shall be recorded for future consideration but shall not prevent progression.
+
+---
+
+## FAIL
+
+Implementation does not satisfy constitutional requirements.
+
+Progression shall cease until identified deficiencies have been resolved and validation repeated.
+
+---
+
+# Validation Evidence
+
+Each validation gate shall record, where applicable:
+
+- validation identifier
+- implementation scope
+- constitutional references
+- validation activities performed
+- evidence reviewed
+- findings
+- decision
+- reviewer
+- validation date
+
+Validation records shall remain part of the constitutional implementation history.
+
+---
+
+# Governance
+
+Validation decisions shall remain constitutionally accountable.
+
+Implementation teams shall not override validation outcomes without authorised constitutional approval.
+
+Validation authority shall remain independent of implementation activity wherever practicable.
+
+---
+
+# Architectural Integrity
+
+Validation shall confirm preservation of:
+
+- constitutional ownership
+- delegated authority
+- separation of responsibilities
+- implementation traceability
+- architectural consistency
+- auditability
+
+Successful implementation alone shall not constitute constitutional compliance.
+
+---
+
+# Mission Outcome
+
+This directive establishes Validation Gates as the constitutional control mechanism governing implementation progression, ensuring that each implementation stage is verified before further work proceeds.
+
+---
+
+# Ratification Record
+
+**Status:** DRAFT

@@ -1,0 +1,118 @@
+# REF-020 – Operational Consistency Doctrine
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification establishes operational consistency as a foundational doctrine governing the behaviour of every component within the EMMI platform.
+
+Its objective is to ensure that administrators experience predictable, reliable, and uniform interactions regardless of which module or workflow they are using.
+
+---
+
+# Foundational Principle
+
+Identical situations should produce identical behaviour.
+
+The platform shall behave consistently across all operational areas so that users can develop confidence through familiarity rather than continual relearning.
+
+Consistency reduces uncertainty.
+
+---
+
+# Interface Consistency
+
+Every module should adopt the same design language and interaction patterns.
+
+This includes consistent:
+
+* page layouts;
+* navigation;
+* terminology;
+* buttons;
+* icons;
+* status indicators;
+* workflow presentation;
+* feedback messages.
+
+Users should immediately recognise how to interact with new modules.
+
+---
+
+# Workflow Consistency
+
+Operational workflows should follow common patterns wherever practical.
+
+Examples include:
+
+* review before approval;
+* confirmation before irreversible actions;
+* logical progression between workflow stages;
+* consistent completion behaviour.
+
+A familiar workflow reduces training requirements.
+
+---
+
+# Behavioural Consistency
+
+Equivalent actions should always produce equivalent outcomes.
+
+For example:
+
+* Save should always preserve data.
+* Cancel should never commit changes.
+* Archive should never delete information.
+* Confirm should always complete the intended action.
+
+Behaviour should remain predictable throughout the platform.
+
+---
+
+# Terminology Consistency
+
+Operational terminology shall remain standardised.
+
+The same concept should never be described using multiple terms in different modules.
+
+Consistent language improves understanding and reduces ambiguity.
+
+---
+
+# Visual Consistency
+
+Visual presentation should reinforce operational familiarity.
+
+Colour usage, typography, spacing, iconography, and component behaviour should remain consistent across the entire platform.
+
+Consistency strengthens user confidence.
+
+---
+
+# Architectural Consistency
+
+Future modules shall conform to established architectural principles rather than introducing independent design approaches.
+
+Expansion should reinforce the existing platform rather than fragment it.
+
+---
+
+# Continuous Refinement
+
+Whenever inconsistencies are identified, architectural refinement should seek to eliminate them.
+
+Operational consistency is a continuous objective rather than a one-time achievement.
+
+---
+
+# Executive Context Summary
+
+This specification establishes operational consistency as a permanent architectural doctrine for EMMI. By ensuring that interfaces, workflows, terminology, and behaviours remain predictable throughout the platform, administrators can work with greater confidence, reduced cognitive effort, and improved operational efficiency. Every future enhancement should reinforce this consistency rather than diminish it.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

@@ -1,0 +1,133 @@
+# REF-008 – Operational Workspace Philosophy
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification defines the philosophy governing the EMMI operational workspace.
+
+The administration interface is not intended to behave like a collection of disconnected web pages. Instead, it shall function as a continuous operational workspace where administrators can complete tasks efficiently with minimal interruption.
+
+---
+
+# Operational Philosophy
+
+The workspace shall be designed around operational flow rather than software structure.
+
+Users should feel they are working within a single integrated environment rather than navigating between separate modules.
+
+The system should continuously support the user's current objective.
+
+---
+
+# Continuous Workflow
+
+Operational tasks should progress naturally from one stage to the next.
+
+Wherever practical, completing one task should immediately present the next logical action without requiring unnecessary navigation.
+
+The workspace should minimise interruptions to user concentration.
+
+---
+
+# Context Preservation
+
+The system shall preserve operational context whenever practical.
+
+Examples include:
+
+* selected retreat;
+* selected guest;
+* active filters;
+* search criteria;
+* current page position;
+* dashboard selections.
+
+Administrators should never need to repeatedly reconstruct their working environment.
+
+---
+
+# Focused Workspaces
+
+Each operational screen should have a clearly defined purpose.
+
+The interface should avoid presenting excessive information unrelated to the current task.
+
+Supporting information should remain easily accessible without overwhelming the primary workspace.
+
+---
+
+# Intelligent Defaults
+
+The workspace should make sensible assumptions based upon the user's current context.
+
+Examples include:
+
+* automatically selecting the active retreat;
+* pre-filtering relevant records;
+* remembering previous preferences;
+* presenting the most likely next action.
+
+Intelligent defaults reduce repetitive administrative effort.
+
+---
+
+# Workspace Continuity
+
+Moving between operational areas should feel seamless.
+
+Transitions between modules should preserve the user's sense of place and maintain workflow continuity wherever possible.
+
+The workspace should support uninterrupted task completion.
+
+---
+
+# Minimal Administrative Friction
+
+Every unnecessary click, dialog, or navigation step increases operational friction.
+
+The interface should continually seek to reduce:
+
+* unnecessary navigation;
+* duplicate data entry;
+* repetitive selections;
+* avoidable confirmation screens.
+
+Efficiency should improve without reducing safety.
+
+---
+
+# Scalability
+
+The workspace philosophy shall remain effective regardless of future system expansion.
+
+Additional modules should extend the existing workspace rather than introducing conflicting interaction patterns.
+
+---
+
+# Future Vision
+
+Future versions of EMMI may introduce:
+
+* personalised workspaces;
+* AI-assisted operational guidance;
+* configurable layouts;
+* workspace memory;
+* cross-module task orchestration;
+* intelligent operational recommendations.
+
+These enhancements should strengthen, rather than replace, the core workspace philosophy established by this specification.
+
+---
+
+# Executive Context Summary
+
+This specification establishes EMMI as a continuous operational workspace rather than a collection of isolated administration pages. By preserving context, reducing unnecessary navigation, and supporting uninterrupted workflows, the platform becomes faster, more intuitive, and better aligned with the way administrators naturally work. This philosophy provides a durable foundation for future AI-assisted operations and system expansion.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

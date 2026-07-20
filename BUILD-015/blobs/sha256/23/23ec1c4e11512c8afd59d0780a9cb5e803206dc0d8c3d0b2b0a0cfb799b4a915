@@ -1,0 +1,122 @@
+# REF-023 – Decision Support Doctrine
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification establishes decision support as a core architectural doctrine of the EMMI platform.
+
+Its objective is to ensure that every interface, workflow, dashboard, and AI capability assists administrators in making better operational decisions through the timely presentation of relevant, contextual, and actionable information.
+
+---
+
+# Foundational Principle
+
+EMMI exists to support decisions, not merely record information.
+
+Every significant feature should contribute to helping administrators understand the current situation, evaluate available options, and determine the most appropriate course of action.
+
+The platform should transform information into operational understanding.
+
+---
+
+# Contextual Decision Support
+
+Information shall be presented within the context in which it is needed.
+
+Examples include:
+
+* displaying medical risk summaries during application review;
+* presenting payment status during booking confirmation;
+* showing accommodation availability during room allocation;
+* highlighting communication history before contacting a guest.
+
+Relevant information should accompany the decision it supports.
+
+---
+
+# Actionable Information
+
+Whenever practical, information should lead naturally to an appropriate action.
+
+The platform should answer questions such as:
+
+* What requires my attention?
+* What should I do next?
+* What has changed?
+* What decision is now required?
+
+Operational insight is more valuable than isolated data.
+
+---
+
+# Intelligent Prioritisation
+
+The system should assist administrators by distinguishing important information from routine information.
+
+Where multiple items compete for attention, the platform should help identify operational priorities without removing human judgement.
+
+Priority should be based on operational significance rather than data volume.
+
+---
+
+# AI-Assisted Decision Support
+
+Artificial intelligence should strengthen operational decision-making by:
+
+* summarising complex information;
+* identifying relevant patterns;
+* highlighting exceptions;
+* recommending appropriate actions;
+* explaining the basis for recommendations.
+
+AI should advise rather than decide.
+
+---
+
+# Human Authority
+
+Decision support shall never diminish human responsibility.
+
+Administrators retain authority over all significant operational decisions unless future governance explicitly delegates limited authority to automated processes.
+
+The system exists to inform judgement, not replace it.
+
+---
+
+# Continuous Improvement
+
+Decision support should improve as EMMI evolves.
+
+Future refinements should seek to provide increasingly relevant, timely, and contextual operational guidance while maintaining transparency and user trust.
+
+Better information should lead to better decisions.
+
+---
+
+# Future Vision
+
+Future capabilities may include:
+
+* predictive operational recommendations;
+* AI-generated executive briefings;
+* workload prioritisation;
+* intelligent scheduling;
+* operational forecasting;
+* cross-module decision analysis.
+
+These capabilities shall remain consistent with the principles established by this doctrine.
+
+---
+
+# Executive Context Summary
+
+This specification establishes decision support as one of EMMI's defining architectural principles. Rather than functioning solely as an information management system, EMMI is designed to help administrators make informed operational decisions by presenting relevant information in context, highlighting priorities, and providing intelligent assistance while preserving human authority. This doctrine forms a cornerstone of the platform's long-term vision as an AI-assisted operational management system.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

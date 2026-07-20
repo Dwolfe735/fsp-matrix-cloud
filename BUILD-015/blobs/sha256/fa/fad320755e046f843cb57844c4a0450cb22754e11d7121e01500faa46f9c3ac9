@@ -1,0 +1,183 @@
+# MISSION-002-06 — Event Orchestration Architecture
+
+**Status:** DRAFT
+
+---
+
+# Purpose
+
+This document defines the constitutional event orchestration
+architecture of the EMMI Operational Intelligence Platform.
+
+It establishes how operational events are detected, evaluated,
+coordinated and resolved across Application Domain Services.
+
+---
+
+# Constitutional Objective
+
+Coordinate operational activity through event-driven orchestration
+rather than direct inter-module dependency.
+
+Operational events initiate orchestration.
+
+Operational Intelligence determines coordination.
+
+Application Domain Services execute authorised operations.
+
+---
+
+# Event Architecture
+
+```
+Operational Event
+        │
+        ▼
+Event Detection
+        │
+        ▼
+Operational Intelligence Engine
+        │
+        ▼
+Event Evaluation
+        │
+        ▼
+Workflow Orchestration
+        │
+        ▼
+Application Domain Services
+        │
+        ▼
+Operational Memory
+        │
+        ▼
+Executive Briefing
+```
+
+---
+
+# Operational Events
+
+Operational events represent significant changes within one or more
+Application Domain Services.
+
+Examples include:
+
+- Guest Application Submitted
+- Guest Approved
+- Deposit Received
+- Deposit Overdue
+- Questionnaire Completed
+- Retreat Published
+- Retreat Capacity Reached
+- Communication Failed
+- Task Overdue
+- Validation Failed
+
+Operational events describe operational change.
+
+They do not prescribe operational response.
+
+---
+
+# Event Evaluation
+
+The Operational Intelligence Engine evaluates each operational event.
+
+Evaluation determines:
+
+- operational significance
+- affected domains
+- workflow requirements
+- delegated authority
+- executive notification requirements
+
+---
+
+# Workflow Orchestration
+
+Workflow Orchestration coordinates Application Domain Services.
+
+It determines:
+
+- execution sequence
+- dependency order
+- operational coordination
+- completion status
+
+Workflow Orchestration shall not duplicate domain responsibilities.
+
+---
+
+# Application Domain Services
+
+Application Domain Services respond only to authorised operational
+requests.
+
+Domain Services shall not directly orchestrate other domains.
+
+Cross-domain coordination remains the responsibility of the
+Operational Intelligence Engine.
+
+---
+
+# Operational Memory
+
+Operational Memory records:
+
+- initiating event
+- workflow initiated
+- execution outcome
+- operational context
+
+Operational Memory preserves operational continuity.
+
+---
+
+# Executive Briefing
+
+Executive Briefing presents only operationally significant outcomes.
+
+Routine orchestration shall remain transparent unless executive
+attention is required.
+
+---
+
+# Constitutional Principles
+
+Operational events initiate coordination.
+
+Operational Intelligence evaluates significance.
+
+Workflow Orchestration coordinates execution.
+
+Application Domain Services execute domain responsibilities.
+
+Operational Memory preserves continuity.
+
+Executive Briefing informs Human Authority.
+
+---
+
+# Architectural Rule
+
+No Application Domain Service shall directly coordinate another
+Application Domain Service.
+
+All cross-domain operational coordination shall be performed through
+the Operational Intelligence Engine.
+
+---
+
+# Completion Criteria
+
+This document is complete when:
+
+- operational event lifecycle is defined
+- orchestration responsibilities are established
+- coordination boundaries are explicit
+- executive reporting responsibilities are preserved
+
+---
+
+**End of Document**

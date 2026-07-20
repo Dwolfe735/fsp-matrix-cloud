@@ -1,0 +1,212 @@
+# EMMI → BUILD-015 → Crystal Inn Operational Refinements & V1 Finalisation
+
+**Status:** APPROVED
+
+## Continuity
+
+Constitutional continuity is maintained.
+
+All previous ratified governance doctrine remains in force.
+
+Operate as EMMI Solution Architect, Product Owner, UX Designer, Operational Analyst and Governance Steward simultaneously.
+
+The objective of BUILD-015 is **not** to redesign EMMI.
+
+The objective is to complete the operational refinements, workflow improvements and usability enhancements identified after completion of the V1 implementation.
+
+---
+
+# Current Repository State
+
+Governance repository exists.
+
+Implementation repository exists.
+
+Constitutional methodology is now established.
+
+All future implementation must remain constitutionally aligned.
+
+---
+
+# Primary Objective
+
+Complete all operational improvements required before declaring EMMI Version 1 operationally complete.
+
+This phase focuses on refinement rather than feature expansion.
+
+---
+
+# Areas for Review
+
+Review every operational workflow including:
+
+- Retreat Management
+- Ceremony Management
+- Applications
+- Medical Review
+- Risk Assessment
+- Guest Approval
+- Deposits
+- Finance
+- Communications
+- Accommodation
+- Attendance
+- Dashboard
+- Navigation
+- User Experience
+- Workflow Continuity
+- Administrative Efficiency
+
+---
+
+# Existing Design Principles
+
+Maintain throughout:
+
+- Minimal clicks.
+- Logical workflow.
+- Child-safe simplicity where possible.
+- Never force unnecessary navigation.
+- Complete one task before moving naturally to the next.
+- Preserve context.
+- Reduce cognitive load.
+- Prevent user error wherever possible.
+
+---
+
+# Previously Identified Refinements
+
+These concepts have already been discussed and should now be incorporated where appropriate.
+
+## Workflow Guidance
+
+Provide visual guidance through workflows.
+
+For example:
+
+- Current step clearly highlighted.
+- Completed steps indicated.
+- Remaining steps visible.
+- User always knows where they are.
+
+---
+
+## Navigation Continuity
+
+Avoid forcing users back to the main menu.
+
+Whenever practical:
+
+Next logical action should always be available directly from the current screen.
+
+Users should naturally progress through operational workflows.
+
+---
+
+## Progressive Disclosure
+
+Keep screens simple.
+
+Advanced functions should only appear when required.
+
+Avoid overwhelming non-technical users.
+
+---
+
+## Contextual Help
+
+Every significant screen may contain optional help.
+
+Help should open documentation without interrupting workflow.
+
+Documentation supplements the interface rather than replacing intuitive design.
+
+---
+
+## Visual Status Indicators
+
+Continue refining status indicators.
+
+Examples include:
+
+- Complete
+- Pending
+- Requires Review
+- High Risk
+- Awaiting Payment
+- Fully Booked
+
+Status should be immediately understandable.
+
+---
+
+## Error Prevention
+
+Prefer preventing mistakes over correcting mistakes.
+
+Disable impossible actions.
+
+Warn before destructive operations.
+
+Require confirmation only where appropriate.
+
+---
+
+## Operational Philosophy
+
+Assume Emily is running a retreat rather than operating software.
+
+Software should adapt to operational reality.
+
+Operations should never adapt to software limitations.
+
+---
+
+# User Experience Goal
+
+The software should feel:
+
+- calm
+- obvious
+- forgiving
+- predictable
+- professional
+- welcoming
+
+A first-time user should understand most workflows without training.
+
+---
+
+# Scope Control
+
+Do not introduce major new modules unless they directly improve existing workflows.
+
+Prioritise:
+
+- refinement
+- usability
+- consistency
+- operational efficiency
+
+over feature count.
+
+---
+
+# Implementation Method
+
+For every proposed refinement:
+
+1. Identify the operational problem.
+2. Explain why it creates friction.
+3. Recommend the simplest solution.
+4. Assess constitutional consistency.
+5. Assess implementation complexity.
+6. Recommend whether to include in Version 1 or defer.
+
+---
+
+# Executive Goal
+
+By completion of BUILD-015, EMMI should represent a coherent, polished and operationally mature Version 1 platform ready for real-world use at Crystal Inn.
+
+The emphasis is operational excellence through thoughtful refinement rather than additional functionality.

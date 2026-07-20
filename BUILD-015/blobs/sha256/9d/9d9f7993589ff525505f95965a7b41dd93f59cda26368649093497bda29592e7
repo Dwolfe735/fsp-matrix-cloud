@@ -1,0 +1,118 @@
+# REF-016 – Progressive Disclosure Doctrine
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification establishes the principle of progressive disclosure throughout the EMMI administration platform.
+
+Its objective is to present administrators with only the information and functionality required for their current task, while ensuring that additional detail remains readily accessible when needed.
+
+---
+
+# Foundational Principle
+
+Complex systems should not appear complex.
+
+The interface shall reveal functionality progressively, allowing administrators to focus on the task at hand without being distracted by unnecessary controls or information.
+
+Complexity should be available, not immediately visible.
+
+---
+
+# Primary Interface
+
+The default interface should present only the most frequently required information and actions.
+
+Primary screens should answer the questions:
+
+* What do I need to know?
+* What do I need to do next?
+
+Everything else should remain secondary.
+
+---
+
+# Secondary Information
+
+Supporting information should remain available through logical expansion mechanisms such as:
+
+* expandable sections;
+* drill-down views;
+* contextual panels;
+* detailed records;
+* dedicated management pages.
+
+Secondary information should never obscure primary workflows.
+
+---
+
+# Advanced Features
+
+Advanced functionality should remain accessible without overwhelming routine users.
+
+Examples include:
+
+* advanced filtering;
+* detailed reporting;
+* diagnostic information;
+* historical audit records;
+* configuration options.
+
+These capabilities should appear only when appropriate to the user's current objective.
+
+---
+
+# Contextual Disclosure
+
+Information should be revealed according to operational context.
+
+For example:
+
+* reviewing an application should expose relevant medical guidance;
+* confirming a booking should expose payment information;
+* allocating accommodation should expose occupancy data.
+
+The system should anticipate the administrator's informational needs.
+
+---
+
+# Reduced Cognitive Load
+
+Progressive disclosure reduces the amount of information users must process simultaneously.
+
+Administrators should be able to complete common tasks confidently without navigating unnecessary complexity.
+
+The interface should remain calm and focused.
+
+---
+
+# Consistency
+
+The same disclosure principles should apply consistently throughout every EMMI module.
+
+Users should develop confidence that additional detail is always available through familiar interaction patterns.
+
+Consistency strengthens usability.
+
+---
+
+# Future Evolution
+
+As new capabilities are introduced, they should integrate within the established progressive disclosure model.
+
+Future growth should increase capability without increasing apparent complexity.
+
+---
+
+# Executive Context Summary
+
+This specification establishes progressive disclosure as a core user experience doctrine within EMMI. By revealing information and functionality only when relevant, the platform remains approachable for new users while retaining the depth required by experienced administrators. The result is a cleaner, more efficient, and more scalable operational environment.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

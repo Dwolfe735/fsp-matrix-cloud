@@ -1,0 +1,142 @@
+# M004-002 — Implementation Work Packages
+
+**Status:** DRAFT
+
+---
+
+# Purpose
+
+This document establishes the constitutional framework for organising implementation activities into controlled work packages.
+
+Its purpose is to ensure that implementation proceeds through structured, verifiable and constitutionally traceable units of work while preserving the integrity of the published BUILD-015 architecture.
+
+---
+
+# Constitutional Principles
+
+Every implementation activity shall belong to a defined work package.
+
+Every work package shall be independently:
+
+- authorised
+- traceable
+- reviewable
+- testable
+- verifiable
+
+No implementation activity shall exist outside an approved work package.
+
+---
+
+# Work Package Structure
+
+Each implementation work package shall define:
+
+- work package identifier
+- implementation objective
+- constitutional authority
+- implementation scope
+- dependencies
+- implementation deliverables
+- validation requirements
+- completion criteria
+
+The structure shall remain consistent throughout the implementation programme.
+
+---
+
+# Constitutional Authority
+
+Each work package shall identify the constitutional directives from which its implementation authority is derived.
+
+A work package may reference one or more constitutional artifacts where implementation spans multiple constitutional capabilities.
+
+No work package shall extend beyond its constitutional authority.
+
+---
+
+# Scope Definition
+
+Each work package shall clearly identify:
+
+- the capabilities to be implemented
+- the implementation boundaries
+- affected application components
+- excluded functionality
+- implementation assumptions
+- constitutional constraints
+
+Scope shall remain sufficiently precise to prevent implementation ambiguity.
+
+---
+
+# Dependency Management
+
+Implementation dependencies shall be explicitly identified.
+
+Dependencies may include:
+
+- prerequisite work packages
+- constitutional directives
+- shared implementation services
+- application infrastructure
+- validation activities
+
+Dependencies shall be resolved before dependent implementation commences.
+
+---
+
+# Validation Requirements
+
+Every work package shall define the validation activities necessary to demonstrate constitutional compliance.
+
+Validation may include:
+
+- architectural verification
+- functional verification
+- interface verification
+- audit verification
+- traceability verification
+- implementation review
+
+Completion shall not be declared until required validation has been successfully completed.
+
+---
+
+# Completion Criteria
+
+A work package shall be considered complete only when:
+
+- implementation objectives have been achieved
+- constitutional requirements have been satisfied
+- validation has passed
+- implementation evidence has been recorded
+- no unresolved implementation issues remain
+
+Completion shall be evidence-based.
+
+---
+
+# Architectural Integrity
+
+Implementation work packages shall preserve:
+
+- constitutional ownership
+- separation of responsibilities
+- delegated authority
+- implementation traceability
+- architectural consistency
+
+Work package boundaries shall reflect the published constitutional architecture.
+
+---
+
+# Mission Outcome
+
+This directive establishes implementation work packages as the constitutional mechanism for organising, controlling and validating implementation activities throughout the BUILD-015 implementation programme.
+
+---
+
+# Ratification Record
+
+**Status:** DRAFT

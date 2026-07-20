@@ -1,0 +1,136 @@
+# CI-007 — Intent-Driven Architecture
+
+**Status:** DRAFT
+
+## Purpose
+
+This directive establishes Intent-Driven Architecture as the constitutional mechanism through which user objectives are interpreted, coordinated and fulfilled across the EMMI ecosystem.
+
+Its purpose is to ensure that implementation is driven by operational intent rather than interface structure, application location or technical implementation detail.
+
+---
+
+# Constitutional Principles
+
+Operational intent shall govern operational behaviour.
+
+Intent represents the desired operational outcome rather than the mechanism by which that outcome is achieved.
+
+Implementation shall organise execution around intent while preserving constitutional ownership, authority and responsibility.
+
+---
+
+# Constitutional Role of Intent
+
+Intent provides the constitutional link between:
+
+- user objectives
+- operational intelligence
+- application domains
+- authorised workflows
+- delegated execution
+- operational outcomes
+
+Intent coordinates activity without assuming ownership of the participating domains.
+
+---
+
+# Intent Lifecycle
+
+Every operational intent shall progress through an authorised lifecycle comprising:
+
+- intent identification
+- intent interpretation
+- contextual evaluation
+- execution planning
+- authorised delegation
+- operational execution
+- outcome verification
+- completion or exception reporting
+
+Each stage shall remain constitutionally traceable.
+
+---
+
+# Responsibility Boundaries
+
+Intent shall coordinate operational activity.
+
+Intent shall not:
+
+- replace business logic
+- bypass constitutional authority
+- assume domain ownership
+- redefine operational responsibilities
+- execute unauthorised actions
+
+Execution shall remain the responsibility of the constitutionally authorised domains.
+
+---
+
+# Operational Intelligence Integration
+
+The Operational Intelligence Layer may:
+
+- identify operational intent
+- provide contextual analysis
+- recommend execution strategies
+- prioritise competing intents
+- monitor execution progress
+- report operational outcomes
+
+Operational Intelligence shall support intent without altering constitutional authority.
+
+---
+
+# Domain Participation
+
+Application domains shall:
+
+- receive authorised intent
+- execute responsibilities within their constitutional scope
+- return operational outcomes
+- preserve ownership of their internal processing
+
+Participation in fulfilling an intent shall not transfer constitutional ownership.
+
+---
+
+# Architectural Integrity
+
+Implementation shall preserve a clear separation between:
+
+- intent coordination
+- business logic
+- workflow execution
+- presentation
+- domain ownership
+- operational intelligence
+
+Intent shall coordinate these capabilities without merging their constitutional responsibilities.
+
+---
+
+# Validation
+
+Before implementation, every significant operational intent shall be capable of answering:
+
+- What operational outcome is intended?
+- Which domains participate?
+- Who owns each responsibility?
+- Has constitutional authority been preserved?
+- Is execution fully traceable?
+
+Failure to satisfy these questions indicates constitutional non-compliance.
+
+---
+
+# Constitutional Outcome
+
+This directive establishes Intent-Driven Architecture as the constitutional coordination model through which operational objectives are translated into authorised, traceable and constitutionally governed execution while preserving ownership, responsibility and architectural integrity.
+
+---
+
+# Ratification Record
+
+**Status:** DRAFT

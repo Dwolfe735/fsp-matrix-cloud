@@ -1,0 +1,120 @@
+# REF-011 – Human-Centred Administration Doctrine
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification establishes the human-centred design doctrine that underpins every administrative function within EMMI.
+
+While EMMI employs automation and artificial intelligence to improve operational efficiency, the system shall always remain focused on supporting human decision-making rather than replacing it.
+
+---
+
+# Core Principle
+
+EMMI exists to assist administrators.
+
+The system shall augment human capability by reducing repetitive work, presenting relevant information, and guiding operational workflows.
+
+Final responsibility for significant operational decisions shall remain with authorised personnel.
+
+---
+
+# Human Before Software
+
+The administration interface shall be designed around human thinking rather than technical implementation.
+
+Administrators should not need to understand how the software is constructed in order to use it effectively.
+
+The system should adapt to the user, not require the user to adapt to the system.
+
+---
+
+# Decision Support
+
+EMMI should provide information that enables better decisions.
+
+Examples include:
+
+* concise operational summaries;
+* contextual recommendations;
+* highlighted exceptions;
+* identified risks;
+* relevant historical information.
+
+Recommendations should assist judgement without replacing it.
+
+---
+
+# Automation With Transparency
+
+Whenever automation performs an operational task, the result should remain visible and understandable.
+
+Administrators should always be able to determine:
+
+* what occurred;
+* why it occurred;
+* when it occurred;
+* what action, if any, is required.
+
+Automation should never obscure operational accountability.
+
+---
+
+# Respect for User Attention
+
+The interface should avoid unnecessary interruptions.
+
+Notifications, warnings, and prompts should appear only when they provide genuine operational value.
+
+The system should respect the administrator's concentration and workflow.
+
+---
+
+# Confidence Through Clarity
+
+Users should always understand:
+
+* the current situation;
+* the available options;
+* the consequences of their decisions.
+
+The interface should eliminate uncertainty wherever practical.
+
+---
+
+# AI as an Assistant
+
+Artificial intelligence within EMMI shall function as an operational assistant.
+
+AI may:
+
+* identify patterns;
+* summarise information;
+* recommend actions;
+* detect anomalies;
+* automate routine administrative tasks.
+
+AI shall not exercise autonomous authority over operational decisions unless explicitly authorised by future governance.
+
+---
+
+# Continuous Learning
+
+The human-centred philosophy should guide future enhancements.
+
+As new technologies become available, they should strengthen the relationship between administrator and system rather than diminish human oversight.
+
+---
+
+# Executive Context Summary
+
+This specification establishes the human-centred administration doctrine for EMMI. Automation and AI are intended to enhance human capability by reducing repetitive work and improving operational awareness, while preserving transparency, accountability, and human authority. Every future enhancement should reinforce the principle that EMMI exists to support people rather than replace them.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

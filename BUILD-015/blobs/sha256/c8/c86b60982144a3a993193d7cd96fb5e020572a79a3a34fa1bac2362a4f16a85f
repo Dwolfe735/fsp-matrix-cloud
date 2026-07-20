@@ -1,0 +1,141 @@
+# MISSION-001 — Executive Context
+
+**Status:** DRAFT
+
+---
+
+# Purpose
+
+This document establishes the executive context for the reconciled
+BUILD-015 Operational Intelligence Architecture.
+
+Its purpose is to ensure that every subsequent implementation,
+validation and publication activity begins from a common architectural
+understanding.
+
+This document defines the architectural intent.
+
+It does not define implementation.
+
+---
+
+# Mission Objective
+
+Publish the reconciled architectural philosophy of BUILD-015 into a
+clear executive reference that prepares all subsequent implementation
+artifacts.
+
+---
+
+# Scope
+
+This mission establishes:
+
+- architectural purpose
+- system identity
+- operational scope
+- architectural boundaries
+- implementation philosophy
+- publication objectives
+
+This mission does not define detailed architecture.
+
+That responsibility belongs to:
+
+MISSION-002 — Operational Intelligence Blueprint.
+
+---
+
+# Executive Summary
+
+BUILD-015 represents the transition of EMMI from a modular management
+application into an Operational Intelligence Platform.
+
+The architecture is centred upon a single Operational Intelligence
+Engine responsible for understanding operational state, coordinating
+application services, supporting executive decision-making and
+orchestrating authorised operational workflows.
+
+Application modules remain authoritative within their own operational
+domains.
+
+The Operational Intelligence Engine coordinates those modules without
+replacing their responsibilities.
+
+Presentation interfaces expose operational intelligence but do not own
+business logic.
+
+Authority remains under constitutional governance.
+
+---
+
+# Architectural Intent
+
+The purpose of the Operational Intelligence Architecture is to:
+
+- simplify executive operation
+- reduce operational complexity
+- preserve constitutional authority
+- coordinate specialised operational modules
+- provide operational awareness
+- enable scalable automation
+- maintain complete auditability
+
+The architecture is intended to remain stable while implementation
+continues to evolve.
+
+---
+
+# Architectural Identity
+
+EMMI is an Operational Intelligence Platform.
+
+Its purpose is not simply to manage information.
+
+Its purpose is to understand operational state, coordinate authorised
+activity and present clear operational intelligence to authorised
+operators.
+
+---
+
+# Architectural Boundary
+
+MISSION-001 establishes context.
+
+MISSION-002 defines architecture.
+
+MISSION-003 defines constitutional implementation rules.
+
+MISSION-004 defines implementation execution.
+
+MISSION-005 preserves future architectural evolution.
+
+---
+
+# Publication Principle
+
+Every implementation artifact produced after BUILD-015 shall conform to
+the reconciled Operational Intelligence Architecture.
+
+Implementation shall follow architecture.
+
+Architecture shall not be modified to accommodate implementation
+convenience.
+
+---
+
+# Completion Criteria
+
+MISSION-001 is complete when:
+
+- architectural identity is established
+- implementation scope is defined
+- publication scope is defined
+- mission boundaries are defined
+- subsequent missions have clear context
+
+The remaining implementation programme may then proceed.
+
+---
+
+**End of Mission**

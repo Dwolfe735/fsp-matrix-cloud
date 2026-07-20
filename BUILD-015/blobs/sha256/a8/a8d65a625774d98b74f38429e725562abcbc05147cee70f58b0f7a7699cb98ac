@@ -1,0 +1,114 @@
+# REF-022 – Operational Resilience Doctrine
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification establishes the doctrine of operational resilience throughout the EMMI platform.
+
+Its objective is to ensure that the system continues to operate reliably, recovers gracefully from unexpected conditions, and supports administrators in maintaining uninterrupted operations.
+
+---
+
+# Foundational Principle
+
+Operational disruption should be the exception, not the expectation.
+
+EMMI shall be designed to anticipate failures, minimise their impact, and recover in a controlled and predictable manner whenever practical.
+
+Resilience is achieved through preparation rather than reaction.
+
+---
+
+# Graceful Degradation
+
+Where a component becomes unavailable, the remainder of the platform should continue operating wherever possible.
+
+Failures within one module should not unnecessarily prevent administrators from completing unrelated operational tasks.
+
+The platform should degrade gracefully rather than fail completely.
+
+---
+
+# Recovery
+
+Where interruptions occur, administrators should be able to resume work with minimal loss of progress.
+
+The system should seek to preserve:
+
+* operational context;
+* unsaved information where practical;
+* workflow position;
+* pending tasks.
+
+Recovery should be straightforward and predictable.
+
+---
+
+# Fault Isolation
+
+Operational issues should remain isolated to the smallest practical scope.
+
+Errors affecting one workflow, module, or process should not propagate unnecessarily throughout the wider platform.
+
+Isolation improves reliability.
+
+---
+
+# Preventative Design
+
+The platform should proactively reduce the likelihood of operational disruption.
+
+Examples include:
+
+* validation before processing;
+* intelligent defaults;
+* workflow safeguards;
+* duplicate detection;
+* dependency checking;
+* scheduled health monitoring.
+
+Preventing failures is preferable to recovering from them.
+
+---
+
+# Administrator Support
+
+Where operational issues occur, EMMI should assist administrators by providing:
+
+* clear explanations;
+* recommended corrective actions;
+* recovery guidance;
+* access to relevant operational information.
+
+The system should support problem resolution rather than simply report failure.
+
+---
+
+# Continuous Improvement
+
+Operational incidents should inform future architectural refinement.
+
+Recurring issues should be analysed and addressed through controlled improvements that strengthen long-term platform resilience.
+
+Every incident represents an opportunity to improve.
+
+---
+
+# Future Evolution
+
+Future enhancements may introduce predictive monitoring, AI-assisted diagnostics, automated recovery mechanisms, and intelligent health reporting while remaining aligned with the resilience principles established by this doctrine.
+
+---
+
+# Executive Context Summary
+
+This specification establishes operational resilience as a foundational doctrine within EMMI. By designing for graceful degradation, rapid recovery, fault isolation, and continuous improvement, the platform remains dependable under changing operational conditions. Every future enhancement should contribute to a system that is increasingly robust, predictable, and resilient.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

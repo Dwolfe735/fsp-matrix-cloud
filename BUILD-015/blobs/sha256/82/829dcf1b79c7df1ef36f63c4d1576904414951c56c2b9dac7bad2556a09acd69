@@ -1,0 +1,133 @@
+# CI-008 — Operational Memory
+
+**Status:** DRAFT
+
+## Purpose
+
+This directive establishes Operational Memory as the constitutional capability responsible for preserving the operational state required to support continuity, coordination and informed decision-making throughout the EMMI ecosystem.
+
+Its purpose is to distinguish operational state from business data while ensuring that operational context remains consistent, reliable and constitutionally governed.
+
+---
+
+# Constitutional Principles
+
+Operational Memory exists to preserve operational context.
+
+Operational Memory is distinct from business data and application records.
+
+Its function is to maintain the current operational state required to coordinate activity across constitutionally authorised domains.
+
+Operational Memory shall support continuity without assuming ownership of domain information.
+
+---
+
+# Constitutional Responsibilities
+
+Operational Memory is responsible for:
+
+- maintaining current operational context
+- preserving workflow state
+- tracking active operational activities
+- maintaining temporary coordination information
+- supporting operational continuity
+- providing contextual information to authorised intelligence functions
+- preserving execution state across authorised operational processes
+
+---
+
+# Constitutional Boundaries
+
+Operational Memory shall not:
+
+- become the permanent repository for business information
+- replace application domain records
+- duplicate authoritative domain data
+- redefine constitutional ownership
+- implement business rules
+
+Authoritative information shall remain owned by its originating constitutional domain.
+
+---
+
+# Relationship with Application Domains
+
+Application domains remain responsible for:
+
+- business records
+- transactional information
+- domain-specific lifecycle management
+- operational processing
+- constitutional accountability
+
+Operational Memory may reference domain information but shall not become its authoritative source.
+
+---
+
+# Relationship with Operational Intelligence
+
+Operational Intelligence may consume Operational Memory to:
+
+- understand current operational context
+- evaluate operational priorities
+- coordinate cross-domain activities
+- identify emerging operational situations
+- support executive awareness
+
+Operational Memory supplies context but does not produce operational decisions.
+
+---
+
+# Operational Continuity
+
+Operational Memory shall support continuity by preserving, where authorised:
+
+- current workflow position
+- active operational tasks
+- pending actions
+- execution progress
+- contextual relationships
+- operational status
+
+Loss of Operational Memory shall not compromise the integrity of authoritative domain records.
+
+---
+
+# Architectural Integrity
+
+Implementation shall preserve a clear distinction between:
+
+- Operational Memory
+- Operational Knowledge
+- application domain data
+- business records
+- operational intelligence
+- presentation
+
+Each capability shall retain its constitutionally defined purpose.
+
+---
+
+# Validation
+
+Before implementation, Operational Memory shall be capable of answering:
+
+- What operational context is currently active?
+- Which operational activities are in progress?
+- Does this information belong in Operational Memory rather than a domain?
+- Has authoritative ownership been preserved?
+- Does this capability support continuity without duplicating business records?
+
+Failure to satisfy these questions indicates constitutional non-compliance.
+
+---
+
+# Constitutional Outcome
+
+This directive establishes Operational Memory as the constitutional capability responsible for preserving operational context and execution continuity while maintaining clear separation from domain ownership, business records and operational intelligence.
+
+---
+
+# Ratification Record
+
+**Status:** DRAFT

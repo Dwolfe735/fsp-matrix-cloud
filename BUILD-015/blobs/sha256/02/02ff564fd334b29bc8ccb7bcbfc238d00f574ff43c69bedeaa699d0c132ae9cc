@@ -1,0 +1,128 @@
+# CI-006 — Dashboard Reclassification
+
+**Status:** DRAFT
+
+## Purpose
+
+This directive establishes the constitutional role of dashboards within the EMMI ecosystem.
+
+Its purpose is to define dashboards as presentation and operational awareness components rather than repositories of business logic or domain ownership.
+
+---
+
+# Constitutional Principles
+
+Dashboards exist to present operational intelligence.
+
+Dashboards shall not own operational data.
+
+Dashboards shall not implement business rules.
+
+Dashboards shall remain presentation components whose purpose is to provide authorised users with clear, contextual and actionable operational visibility.
+
+---
+
+# Constitutional Role
+
+Dashboards are responsible for:
+
+- presenting operational status
+- summarising authorised information
+- highlighting priorities
+- surfacing operational exceptions
+- providing executive visibility
+- enabling efficient navigation to operational capabilities
+
+Dashboards support decision-making but do not perform domain processing.
+
+---
+
+# Information Sources
+
+All information presented by dashboards shall originate from constitutionally authorised domains.
+
+Dashboards shall consume information through published interfaces.
+
+The originating domain shall remain the constitutional owner of the information presented.
+
+---
+
+# Responsibility Boundaries
+
+Dashboards shall not:
+
+- contain business logic
+- modify operational rules
+- duplicate domain processing
+- become repositories of operational data
+- redefine constitutional ownership
+
+Operational behaviour shall remain within the responsible application domains.
+
+---
+
+# Operational Intelligence Integration
+
+The Operational Intelligence Layer may aggregate information from multiple domains to produce dashboard views.
+
+Dashboards may present:
+
+- operational summaries
+- key performance indicators
+- executive briefings
+- operational alerts
+- workload priorities
+- trend indicators
+- contextual recommendations
+
+Presentation of intelligence shall not alter domain authority.
+
+---
+
+# User Interaction
+
+Dashboards may provide navigation and operational entry points into authorised capabilities.
+
+User actions initiated from dashboards shall be executed by the responsible constitutional domain.
+
+The dashboard shall remain the presentation layer throughout the interaction.
+
+---
+
+# Architectural Integrity
+
+Implementation shall preserve a clear separation between:
+
+- presentation
+- operational intelligence
+- application services
+- workflow execution
+- domain ownership
+
+This separation shall remain evident within both architecture and implementation.
+
+---
+
+# Validation
+
+Before implementation, each dashboard shall be capable of answering:
+
+- What information is being presented?
+- Which domain owns that information?
+- Does the dashboard perform any business logic?
+- Are constitutional ownership boundaries preserved?
+- Is operational processing delegated to the appropriate domain?
+
+Failure to satisfy these questions indicates constitutional non-compliance.
+
+---
+
+# Constitutional Outcome
+
+This directive establishes dashboards as constitutional presentation components that deliver operational awareness and executive visibility while preserving domain ownership, business logic separation and architectural integrity.
+
+---
+
+# Ratification Record
+
+**Status:** DRAFT

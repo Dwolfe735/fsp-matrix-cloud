@@ -1,0 +1,143 @@
+# CI-004 — Audit and Accountability
+
+**Status:** DRAFT
+
+## Purpose
+
+This directive establishes the constitutional requirements for auditability and accountability throughout the EMMI ecosystem.
+
+Its purpose is to ensure that every operational action, decision, workflow, state transition and delegated activity can be reconstructed, verified and attributed to its constitutional source of authority.
+
+---
+
+# Constitutional Principles
+
+Every significant operational activity shall be auditable.
+
+Every auditable activity shall have an identifiable accountable authority.
+
+Audit records shall represent factual operational history and shall never be altered to conceal or misrepresent system behaviour.
+
+Accountability shall always remain traceable to the constitutionally responsible domain.
+
+---
+
+# Audit Scope
+
+The audit framework shall be capable of recording, where applicable:
+
+- creation of records
+- modification of records
+- deletion or archival events
+- workflow initiation
+- workflow completion
+- delegated operational actions
+- communications generated
+- approvals
+- exceptions
+- failures
+- security-relevant events
+- constitutional governance events
+
+---
+
+# Accountability
+
+Every auditable event shall identify, where applicable:
+
+- the initiating authority
+- the responsible domain
+- the acting operator or authorised automation
+- the affected capability
+- the action performed
+- the resulting operational outcome
+- the time of execution
+
+Responsibility shall remain attributable throughout the complete operational lifecycle.
+
+---
+
+# Audit Integrity
+
+Audit information shall be:
+
+- accurate
+- complete
+- chronological
+- protected from unauthorised modification
+- available for authorised review
+- retained in accordance with constitutional policy
+
+Audit data shall constitute operational evidence rather than implementation commentary.
+
+---
+
+# Constitutional Authority
+
+Audit records shall record operational facts.
+
+They shall not:
+
+- reinterpret historical events
+- modify historical outcomes
+- infer authority that did not exist
+- conceal unsuccessful actions
+- remove constitutional accountability
+
+Operational history shall remain an accurate representation of system activity.
+
+---
+
+# Delegated Operations
+
+Where delegated operational execution occurs, the audit record shall preserve:
+
+- originating constitutional authority
+- delegated execution authority
+- executed operation
+- execution result
+- completion status
+- exception conditions, where applicable
+
+Delegation shall never obscure accountability.
+
+---
+
+# Review and Verification
+
+Authorised operators shall be able to review audit information sufficient to:
+
+- verify constitutional compliance
+- reconstruct operational events
+- identify responsibility
+- investigate anomalies
+- support operational assurance
+- validate implementation behaviour
+
+Audit information shall support both operational management and constitutional governance.
+
+---
+
+# Implementation Discipline
+
+Implementation shall preserve the constitutional audit model.
+
+Implementation convenience shall not reduce:
+
+- audit completeness
+- accountability
+- traceability
+- evidential integrity
+- constitutional transparency
+
+---
+
+# Constitutional Outcome
+
+This directive establishes audit and accountability as constitutional safeguards that preserve operational evidence, traceability, governance integrity and responsible stewardship across the EMMI ecosystem.
+
+---
+
+# Ratification Record
+
+**Status:** DRAFT

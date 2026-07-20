@@ -1,0 +1,82 @@
+# CI-001 — Operational Intelligence Ownership
+
+**Status:** DRAFT
+
+---
+
+# Purpose
+
+This directive establishes the constitutional ownership of
+Operational Intelligence within the EMMI Operational Intelligence
+Platform.
+
+---
+
+# Directive
+
+Operational Intelligence shall be owned exclusively by the
+Operational Intelligence Engine (OIE).
+
+No Application Domain Service, Presentation Interface or external
+component shall independently perform operational intelligence
+responsibilities.
+
+---
+
+# Constitutional Responsibilities
+
+The Operational Intelligence Engine exclusively owns:
+
+- operational understanding
+- operational reasoning
+- operational awareness
+- operational coordination
+- workflow orchestration
+- recommendation generation
+- executive briefing
+- experience orchestration
+
+---
+
+# Constitutional Boundaries
+
+The Operational Intelligence Engine shall not:
+
+- own operational records
+- replace Application Domain Services
+- bypass Human Authority
+- exceed Delegated Authority
+- duplicate Presentation responsibilities
+
+---
+
+# Implementation Requirements
+
+Implementation shall ensure that:
+
+- intelligence remains centralised
+- domain ownership remains exclusive
+- presentation remains independent
+- authority remains constitutionally governed
+
+---
+
+# Compliance
+
+Any implementation that distributes operational intelligence across
+multiple architectural layers shall be considered constitutionally
+non-compliant.
+
+---
+
+# Validation
+
+Implementation shall demonstrate that:
+
+- operational intelligence originates from the OIE
+- no duplicate intelligence engines exist
+- architectural ownership remains explicit
+
+---
+
+**End of Directive**

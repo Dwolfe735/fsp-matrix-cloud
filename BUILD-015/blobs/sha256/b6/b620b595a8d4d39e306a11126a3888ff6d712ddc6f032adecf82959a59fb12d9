@@ -1,0 +1,127 @@
+# CI-003 — Separation of Responsibilities
+
+**Status:** DRAFT
+
+## Purpose
+
+This directive establishes the constitutional separation of responsibilities across the EMMI ecosystem.
+
+Its purpose is to ensure that every constitutional domain performs only those responsibilities assigned to it, preventing functional overlap, preserving architectural clarity and maintaining long-term implementation integrity.
+
+---
+
+# Constitutional Principles
+
+Every constitutional responsibility shall have a single primary owner.
+
+Responsibilities shall be allocated according to constitutional authority rather than implementation convenience.
+
+Each domain shall remain focused on its own constitutional purpose.
+
+Separation of responsibilities is a constitutional safeguard against architectural drift.
+
+---
+
+# Responsibility Allocation
+
+Responsibilities shall be assigned so that each domain performs a distinct operational role.
+
+No responsibility shall be duplicated across multiple domains unless explicitly authorised by constitutional design.
+
+Where multiple domains participate in a workflow, each domain shall perform only its assigned responsibilities.
+
+---
+
+# Constitutional Boundaries
+
+Each domain shall remain within its constitutionally defined scope.
+
+A domain shall not:
+
+- perform responsibilities assigned to another domain
+- bypass established operational boundaries
+- assume undocumented operational functions
+- redefine constitutional responsibilities during implementation
+- extend its authority without constitutional approval
+
+---
+
+# Coordination
+
+Separation of responsibilities does not prevent collaboration.
+
+Domains shall cooperate through:
+
+- published interfaces
+- authorised workflows
+- approved operational contracts
+- defined information exchanges
+- constitutional authority chains
+
+Coordination shall preserve responsibility boundaries at all times.
+
+---
+
+# Implementation Discipline
+
+Implementation shall reflect the constitutional allocation of responsibilities.
+
+Implementation shall not:
+
+- merge unrelated responsibilities into a single component
+- distribute a single constitutional responsibility across multiple owners without constitutional approval
+- introduce hidden operational dependencies
+- obscure accountability through implementation shortcuts
+
+Implementation structure shall remain traceable to the constitutional architecture.
+
+---
+
+# Accountability
+
+Every operational outcome shall be attributable to the domain responsible for performing that constitutional responsibility.
+
+Responsibility shall remain:
+
+- identifiable
+- auditable
+- reviewable
+- constitutionally governed
+
+No operational activity shall exist without accountable responsibility.
+
+---
+
+# Change Control
+
+Changes to constitutional responsibilities shall occur only through approved constitutional governance.
+
+Implementation teams shall not independently redefine responsibility boundaries.
+
+Where operational evolution requires redistribution of responsibilities, the constitutional corpus shall be updated before implementation proceeds.
+
+---
+
+# Validation
+
+Before implementation, each significant capability shall be capable of answering:
+
+- Which domain performs this responsibility?
+- Why is this domain responsible?
+- Does another domain perform the same responsibility?
+- Is accountability clearly defined?
+- Are constitutional boundaries preserved?
+
+If any answer is uncertain, separation of responsibilities shall be considered incomplete.
+
+---
+
+# Constitutional Outcome
+
+This directive establishes the constitutional separation of responsibilities as the mechanism through which clarity, accountability, maintainability and architectural integrity are preserved throughout the EMMI ecosystem.
+
+---
+
+# Ratification Record
+
+**Status:** DRAFT

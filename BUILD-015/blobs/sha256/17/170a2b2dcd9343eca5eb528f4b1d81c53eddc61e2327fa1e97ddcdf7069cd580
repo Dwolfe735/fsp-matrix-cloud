@@ -1,0 +1,172 @@
+# MISSION-002-04 — Information Architecture
+
+**Status:** DRAFT
+
+---
+
+# Purpose
+
+This document defines the constitutional information architecture of
+the EMMI Operational Intelligence Platform.
+
+It establishes how operational information progresses from raw data to
+operational understanding.
+
+This document defines information architecture only.
+
+It does not define implementation.
+
+---
+
+# Constitutional Objective
+
+Transform operational records into actionable operational
+understanding while preserving evidence, traceability and domain
+ownership.
+
+---
+
+# Information Hierarchy
+
+```
+Operational Data
+        │
+        ▼
+Operational Information
+        │
+        ▼
+Operational Memory
+        │
+        ▼
+Operational Knowledge
+        │
+        ▼
+Operational Awareness
+        │
+        ▼
+Operational Intelligence
+```
+
+Each layer has a distinct constitutional responsibility.
+
+---
+
+# Operational Data
+
+Owned by:
+
+Application Domain Services.
+
+Examples include:
+
+- guest records
+- payments
+- bookings
+- questionnaires
+- communications
+- documents
+
+Operational Data represents recorded facts.
+
+---
+
+# Operational Information
+
+Information is structured domain data prepared for operational use.
+
+Information answers:
+
+"What exists?"
+
+It does not interpret significance.
+
+---
+
+# Operational Memory
+
+Operational Memory preserves contextual continuity.
+
+It answers:
+
+"What has happened?"
+
+Operational Memory records operational context without changing
+authoritative domain records.
+
+---
+
+# Operational Knowledge
+
+Operational Knowledge represents evidence-based organisational
+learning.
+
+It answers:
+
+"What have operations demonstrated?"
+
+Knowledge is derived from historical evidence.
+
+Knowledge shall remain explainable.
+
+---
+
+# Operational Awareness
+
+Operational Awareness continuously evaluates the current operational
+condition of the organisation.
+
+It answers:
+
+"What is happening now?"
+
+Awareness synthesises operational state across domains.
+
+---
+
+# Operational Intelligence
+
+Operational Intelligence interprets operational awareness to support
+executive operation.
+
+It answers:
+
+"What should receive attention?"
+
+Operational Intelligence produces recommendations rather than
+authority.
+
+---
+
+# Constitutional Principles
+
+Each information layer owns one responsibility.
+
+No information layer duplicates another.
+
+Operational Intelligence depends upon the preceding layers.
+
+Domain ownership remains unchanged throughout the information
+hierarchy.
+
+---
+
+# Architectural Rule
+
+Operational Information shall progressively increase understanding
+without altering the authoritative operational records maintained by
+Application Domain Services.
+
+---
+
+# Completion Criteria
+
+This document is complete when:
+
+- information hierarchy is defined
+- responsibilities are exclusive
+- ownership is preserved
+- operational understanding progresses without ambiguity
+
+---
+
+**End of Document**

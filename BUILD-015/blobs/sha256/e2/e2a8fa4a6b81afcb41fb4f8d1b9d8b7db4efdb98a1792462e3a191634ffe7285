@@ -1,0 +1,128 @@
+# CI-005 — Operational Intelligence Layer
+
+**Status:** DRAFT
+
+## Purpose
+
+This directive establishes the Operational Intelligence Layer as the constitutional coordination layer within the EMMI ecosystem.
+
+Its purpose is to observe operational activity, synthesise information from authorised domains, provide operational awareness and coordinate intelligence without assuming ownership of domain responsibilities.
+
+---
+
+# Constitutional Principles
+
+The Operational Intelligence Layer is a constitutional coordination capability.
+
+It provides operational intelligence rather than operational ownership.
+
+It shall remain independent of individual application domains while remaining constitutionally accountable to the EMMI architecture.
+
+---
+
+# Constitutional Responsibilities
+
+The Operational Intelligence Layer is responsible for:
+
+- maintaining operational awareness
+- aggregating authorised operational information
+- identifying operational priorities
+- presenting executive intelligence
+- coordinating cross-domain visibility
+- supporting informed decision making
+- identifying operational exceptions
+- assisting authorised operational workflows
+
+---
+
+# Constitutional Boundaries
+
+The Operational Intelligence Layer shall not:
+
+- own application domain data
+- replace domain business logic
+- perform responsibilities constitutionally assigned to another domain
+- modify domain behaviour outside authorised interfaces
+- bypass constitutional governance
+
+Its function is coordination, not substitution.
+
+---
+
+# Information Consumption
+
+The Operational Intelligence Layer shall consume information only through constitutionally authorised interfaces.
+
+Information shall remain owned by its originating domain.
+
+Consumption of information shall not imply ownership of that information.
+
+---
+
+# Intelligence Production
+
+The Operational Intelligence Layer may produce:
+
+- operational summaries
+- executive briefings
+- prioritised work queues
+- operational alerts
+- performance indicators
+- contextual recommendations
+- cross-domain operational insights
+
+These outputs support decision making and operational coordination.
+
+---
+
+# Relationship with Application Domains
+
+Application domains remain responsible for:
+
+- business rules
+- operational processing
+- data ownership
+- lifecycle management
+- constitutional accountability
+
+The Operational Intelligence Layer complements domain operation without altering constitutional ownership.
+
+---
+
+# Architectural Integrity
+
+Implementation shall preserve the separation between:
+
+- operational intelligence
+- application services
+- presentation
+- workflow execution
+- domain ownership
+
+No implementation convenience shall merge these constitutional responsibilities.
+
+---
+
+# Validation
+
+Before implementation, the Operational Intelligence Layer shall be capable of answering:
+
+- Does this information originate from an authorised domain?
+- Has domain ownership been preserved?
+- Is this coordination rather than domain execution?
+- Are constitutional boundaries maintained?
+- Is operational accountability retained?
+
+Failure to satisfy these questions indicates constitutional non-compliance.
+
+---
+
+# Constitutional Outcome
+
+This directive establishes the Operational Intelligence Layer as the constitutional coordination capability responsible for operational awareness, executive visibility and cross-domain intelligence while preserving domain ownership, accountability and architectural integrity.
+
+---
+
+# Ratification Record
+
+**Status:** DRAFT

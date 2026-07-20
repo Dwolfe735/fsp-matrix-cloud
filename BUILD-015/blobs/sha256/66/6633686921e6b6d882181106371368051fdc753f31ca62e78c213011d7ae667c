@@ -1,0 +1,174 @@
+# MISSION-002-05 — Authority Architecture
+
+**Status:** DRAFT
+
+---
+
+# Purpose
+
+This document defines the constitutional authority architecture of the
+EMMI Operational Intelligence Platform.
+
+It establishes how authority is exercised, delegated, evaluated and
+executed throughout the platform.
+
+Authority is distinct from information, intelligence and execution.
+
+---
+
+# Constitutional Objective
+
+Preserve human authority while enabling controlled operational
+automation through explicit delegated authority.
+
+---
+
+# Authority Hierarchy
+
+```
+Human Authority
+        │
+        ▼
+Constitutional Policy
+        │
+        ▼
+Delegated Authority
+        │
+        ▼
+Operational Intelligence Engine
+        │
+        ▼
+Application Domain Services
+        │
+        ▼
+Execution
+        │
+        ▼
+Audit
+```
+
+---
+
+# Human Authority
+
+Human Authority remains the highest operational authority.
+
+Human Authority owns:
+
+- operational objectives
+- constitutional approval
+- delegation decisions
+- executive judgement
+- revocation of delegated authority
+
+Human Authority cannot be superseded by Operational Intelligence.
+
+---
+
+# Constitutional Policy
+
+Constitutional Policy defines:
+
+- permitted authority
+- prohibited authority
+- conditional authority
+- approval requirements
+- operational limits
+
+Delegated Authority shall always operate within Constitutional Policy.
+
+---
+
+# Delegated Authority
+
+Delegated Authority defines actions that may be executed without
+additional executive approval.
+
+Delegation shall be:
+
+- explicit
+- traceable
+- auditable
+- revocable
+
+No authority shall be assumed.
+
+---
+
+# Operational Intelligence Engine
+
+The Operational Intelligence Engine evaluates whether an action falls
+within delegated authority.
+
+The OIE may:
+
+- recommend
+- coordinate
+- prepare
+- execute delegated actions
+
+The OIE shall not execute actions beyond delegated authority.
+
+---
+
+# Application Domain Services
+
+Application Domain Services execute authorised operational activities.
+
+They do not determine constitutional authority.
+
+Authority evaluation remains the responsibility of the Operational
+Intelligence Engine.
+
+---
+
+# Audit
+
+Every delegated action shall produce an auditable operational record.
+
+Audit shall record:
+
+- initiating event
+- authority source
+- execution outcome
+- execution time
+- responsible component
+
+---
+
+# Constitutional Principles
+
+Authority shall always be:
+
+- explicit
+- explainable
+- traceable
+- auditable
+- revocable
+
+Authority shall never be inferred.
+
+---
+
+# Architectural Rule
+
+Operational Intelligence may coordinate execution.
+
+Only delegated authority permits autonomous execution.
+
+All other actions shall be presented for executive approval.
+
+---
+
+# Completion Criteria
+
+This document is complete when:
+
+- authority hierarchy is defined
+- delegation principles are established
+- execution boundaries are explicit
+- audit requirements are preserved
+
+---
+
+**End of Document**

@@ -1,0 +1,153 @@
+# M004-008 — Architectural Conflict Rules
+
+**Status:** DRAFT
+
+---
+
+# Purpose
+
+This document establishes the constitutional framework for identifying, evaluating and resolving architectural conflicts during the BUILD-015 implementation programme.
+
+Its purpose is to ensure that implementation remains faithful to the published constitutional architecture and that any conflicts are resolved through constitutional governance rather than implementation convenience.
+
+---
+
+# Constitutional Principles
+
+Constitutional authority shall prevail over implementation preference.
+
+Implementation shall not reinterpret constitutional intent in order to resolve architectural uncertainty.
+
+Where conflict exists, implementation shall pause until the conflict has been constitutionally assessed and resolved.
+
+No implementation activity shall knowingly introduce architectural drift.
+
+---
+
+# Definition of Architectural Conflict
+
+An architectural conflict exists where implementation would:
+
+- contradict a published constitutional directive
+- violate constitutional ownership
+- alter delegated authority
+- breach separation of responsibilities
+- bypass published interfaces
+- introduce inconsistent architectural behaviour
+- weaken auditability or traceability
+- create ambiguity regarding constitutional accountability
+
+Conflicts may arise from design interpretation, implementation decisions or previously unidentified dependencies.
+
+---
+
+# Conflict Identification
+
+Implementation teams shall identify architectural conflicts as early as practicable.
+
+Each identified conflict shall be documented with:
+
+- conflict identifier
+- affected implementation work package
+- affected constitutional directives
+- description of the conflict
+- constitutional impact assessment
+- recommended resolution
+
+No identified conflict shall remain undocumented.
+
+---
+
+# Conflict Resolution Hierarchy
+
+Architectural conflicts shall be resolved using the following order of authority:
+
+1. Published Constitutional Directives
+2. Operational Intelligence Blueprint
+3. Executive Context
+4. BUILD-015 Architectural Reconciliation
+
+Where ambiguity remains after applying this hierarchy, constitutional review shall be required before implementation proceeds.
+
+---
+
+# Resolution Outcomes
+
+Each architectural conflict shall result in one of the following outcomes:
+
+## RESOLVED
+
+The conflict has been addressed while preserving constitutional integrity.
+
+Implementation may proceed.
+
+---
+
+## REQUIRES CONSTITUTIONAL REVIEW
+
+The conflict cannot be resolved through existing constitutional authority.
+
+Implementation shall pause pending constitutional determination.
+
+---
+
+## IMPLEMENTATION AMENDMENT
+
+The implementation approach shall be modified to restore constitutional conformity.
+
+The constitutional corpus shall remain unchanged.
+
+---
+
+# Governance
+
+Implementation teams shall not:
+
+- redefine constitutional architecture
+- approve architectural exceptions
+- alter constitutional terminology
+- weaken constitutional governance
+- introduce alternative architectural models
+
+Only constitutional authority may approve changes to the published constitutional corpus.
+
+---
+
+# Traceability
+
+Every architectural conflict shall remain traceable to:
+
+- affected constitutional directives
+- affected implementation work packages
+- dependency records
+- validation evidence
+- final resolution decision
+
+Conflict resolution shall become part of the permanent implementation history.
+
+---
+
+# Architectural Integrity
+
+Resolution of architectural conflicts shall preserve:
+
+- constitutional ownership
+- delegated authority
+- separation of responsibilities
+- implementation traceability
+- auditability
+- architectural consistency
+
+Conflict resolution shall strengthen constitutional fidelity rather than compromise it.
+
+---
+
+# Mission Outcome
+
+This directive establishes the constitutional rules governing architectural conflict resolution, ensuring that implementation remains fully aligned with the published BUILD-015 constitutional architecture and that constitutional authority always prevails over implementation convenience.
+
+---
+
+# Ratification Record
+
+**Status:** DRAFT

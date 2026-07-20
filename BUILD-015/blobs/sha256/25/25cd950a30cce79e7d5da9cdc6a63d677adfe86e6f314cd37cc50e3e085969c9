@@ -1,0 +1,327 @@
+# REF-003 – Executive Dashboard
+
+**Status:** RATIFIED
+
+## Purpose
+
+The Executive Dashboard provides the primary operational view of EMMI.
+
+It is designed to answer the question:
+
+> **"What is happening across the entire system right now?"**
+
+Unlike individual module pages, the Executive Dashboard provides a consolidated management overview suitable for owners, administrators, and operational supervisors.
+
+It prioritises clarity, operational awareness, and actionable information over configuration.
+
+---
+
+## Design Philosophy
+
+The Executive Dashboard shall:
+
+- present only high-value operational information;
+- require minimal navigation;
+- minimise visual clutter;
+- use consistent visual indicators;
+- support rapid decision making;
+- act as the primary landing page after login.
+
+The dashboard is not intended to replace detailed management pages.
+
+Instead, it serves as an executive command centre.
+
+---
+
+# Dashboard Hierarchy
+
+The dashboard architecture consists of multiple layers.
+
+## Dashboard 1 — Executive Overview
+
+Primary operational dashboard.
+
+Displays only the most important information requiring immediate awareness.
+
+Examples:
+
+- Active Retreats
+- Guests Currently On Site
+- Pending Questionnaire Reviews
+- Deposits Awaiting Payment
+- Capacity Warnings
+- Recent Messages
+- Outstanding Tasks
+- Financial Snapshot
+- System Health
+
+This dashboard should fit comfortably on a single screen where possible.
+
+---
+
+## Dashboard 2 — Operational Dashboards
+
+Each major operational area may have its own dedicated dashboard.
+
+Examples include:
+
+- Retreat Operations
+- Guest Management
+- Communications
+- Finance
+- Accommodation
+- Knowledge & Safety
+- Reporting
+- Administration
+
+These dashboards provide additional operational detail while maintaining a consistent visual language.
+
+---
+
+## Dashboard 3 — Specialist Views
+
+Where necessary, operational areas may expose specialist dashboards.
+
+Examples:
+
+- Finance Analytics
+- Attendance Statistics
+- Accommodation Occupancy
+- Questionnaire Risk Distribution
+- Ceremony Statistics
+- Communication Activity
+
+These are intended for operational analysis rather than daily executive use.
+
+---
+
+## Dashboard 4 — Complete System Status
+
+A comprehensive machine-readable operational report.
+
+This dashboard is primarily intended for:
+
+- diagnostics;
+- auditing;
+- AI assistants;
+- future integrations;
+- reporting engines.
+
+Rather than a traditional graphical dashboard, this view may simply present a structured JSON status document.
+
+Example sections:
+
+- module status
+- database status
+- workflow queues
+- system configuration
+- operational statistics
+- performance metrics
+- active alerts
+
+This becomes the authoritative operational snapshot of the entire platform.
+
+---
+
+# Executive Dashboard Components
+
+Dashboard 1 should typically include the following widgets.
+
+## Retreat Status
+
+Displays:
+
+- Active Retreats
+- Upcoming Retreats
+- Retreats Awaiting Publication
+
+---
+
+## Guest Status
+
+Displays:
+
+- Applications Awaiting Review
+- Approved Guests
+- Deposits Outstanding
+- Confirmed Bookings
+- Waitlist Size
+
+---
+
+## Communications
+
+Displays:
+
+- Emails Awaiting Action
+- WhatsApp Messages
+- Recent Communications
+- Failed Deliveries
+
+---
+
+## Finance Snapshot
+
+Displays:
+
+- Deposits Received
+- Outstanding Balances
+- Refunds
+- Recent Transactions
+
+---
+
+## Accommodation
+
+Displays:
+
+- Current Occupancy
+- Available Capacity
+- Allocation Issues
+
+---
+
+## Safety Overview
+
+Displays:
+
+- Critical Risk Flags
+- High Risk Guests
+- Medical Reviews Required
+
+---
+
+## Operational Tasks
+
+Displays:
+
+- Outstanding Actions
+- Workflow Bottlenecks
+- Administrator Reminders
+
+---
+
+## System Health
+
+Displays:
+
+- Plugin Version
+- Database Status
+- Scheduled Tasks
+- Backup Status
+- System Alerts
+
+---
+
+# Visual Design Principles
+
+The Executive Dashboard should prioritise readability over decoration.
+
+Design principles include:
+
+- clean spacing;
+- minimal colours;
+- consistent typography;
+- intuitive grouping;
+- responsive layout;
+- mobile compatibility.
+
+The interface should appear professional without feeling crowded.
+
+---
+
+# Visual Status Indicators
+
+A consistent status indicator system should be used throughout the dashboard.
+
+Suggested indicators include:
+
+| Status | Meaning |
+|---------|---------|
+| 🟢 | Normal |
+| 🟡 | Requires Attention |
+| 🔴 | Action Required |
+| 🔵 | Informational |
+| ⚪ | Not Applicable |
+
+Status indicators should be used sparingly to draw attention only where necessary.
+
+---
+
+# Progressive Navigation
+
+Users should never feel forced to return repeatedly to a main menu.
+
+Each dashboard should naturally lead to the next logical operational view.
+
+For example:
+
+Executive Dashboard
+
+↓
+
+Guest Overview
+
+↓
+
+Application Review
+
+↓
+
+Individual Application
+
+↓
+
+Communication
+
+↓
+
+Deposit
+
+↓
+
+Booking Confirmation
+
+Navigation should follow operational workflows rather than software structure.
+
+---
+
+# Dashboard Objectives
+
+The Executive Dashboard exists to provide:
+
+- operational awareness;
+- rapid decision support;
+- reduced navigation effort;
+- workflow visibility;
+- executive confidence;
+- AI-readable system status.
+
+---
+
+# Future Expansion
+
+Future versions may include:
+
+- configurable widgets;
+- drag-and-drop layouts;
+- personal dashboard profiles;
+- AI-generated operational summaries;
+- predictive operational alerts;
+- cross-dashboard drill-down analytics.
+
+The dashboard architecture has been designed to accommodate future expansion without altering its core philosophy.
+
+---
+
+# Executive Context Summary
+
+This specification establishes the complete dashboard architecture for EMMI.
+
+Rather than creating a single overcrowded dashboard, EMMI adopts a layered architecture consisting of an Executive Overview, Operational Dashboards, Specialist Views, and a complete machine-readable System Status report. This approach aligns with the project's philosophy of presenting concise, actionable information at the highest level while allowing progressively deeper operational insight. The JSON-based full system status also lays the foundation for future AI assistants, diagnostics, reporting engines, and external integrations.
+
+---
+
+# Ratification Record
+
+**Status:** APPROVED

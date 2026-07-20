@@ -1,0 +1,133 @@
+# REF-018 – Exception Handling Doctrine
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification establishes the principles governing how EMMI identifies, presents, and manages operational exceptions.
+
+Its objective is to ensure that unexpected situations are handled consistently, transparently, and with the minimum possible disruption to administrative workflows.
+
+---
+
+# Foundational Principle
+
+Operational exceptions should become visible without becoming alarming.
+
+The system shall identify situations requiring attention while supporting administrators in resolving them quickly and confidently.
+
+An exception is an opportunity for informed action rather than system failure.
+
+---
+
+# Exception Categories
+
+Operational exceptions should be classified according to their significance.
+
+Typical categories include:
+
+* informational;
+* advisory;
+* warning;
+* critical.
+
+The response presented to the administrator should be proportionate to the operational impact.
+
+---
+
+# Early Detection
+
+Where practical, EMMI should identify potential problems before they become operational issues.
+
+Examples include:
+
+* approaching retreat capacity;
+* incomplete guest information;
+* overdue deposits;
+* missing accommodation assignments;
+* scheduled task failures.
+
+Early awareness reduces operational risk.
+
+---
+
+# Clear Presentation
+
+Exceptions should clearly communicate:
+
+* what has occurred;
+* why attention is required;
+* the operational impact;
+* the recommended next action.
+
+Administrators should not be expected to interpret technical system messages.
+
+---
+
+# Guided Resolution
+
+Whenever practical, the system should provide direct access to the action required to resolve an exception.
+
+Examples include:
+
+* opening the affected guest record;
+* navigating to the outstanding payment;
+* reviewing the flagged questionnaire;
+* correcting incomplete information.
+
+Resolution should be only one step away.
+
+---
+
+# Preserve Workflow
+
+Exceptions should interrupt normal workflows only when operationally necessary.
+
+Routine administrative work should continue wherever possible while allowing outstanding issues to be addressed at an appropriate time.
+
+Only genuinely critical situations should block progression.
+
+---
+
+# Auditability
+
+Significant operational exceptions should be recorded for future review.
+
+Where appropriate, the system should retain:
+
+* the exception raised;
+* the time detected;
+* the resolution applied;
+* the administrator responsible.
+
+This supports operational learning and accountability.
+
+---
+
+# Consistency
+
+Exception handling shall remain consistent across every module.
+
+Administrators should quickly recognise exception behaviour regardless of the operational area in which it occurs.
+
+Consistency improves confidence and reduces training requirements.
+
+---
+
+# Future Evolution
+
+Future versions of EMMI may employ AI to prioritise exceptions, identify emerging operational patterns, and recommend preventative actions while remaining consistent with this doctrine.
+
+---
+
+# Executive Context Summary
+
+This specification establishes the exception handling doctrine for EMMI. Operational exceptions should be detected early, communicated clearly, and resolved efficiently without unnecessarily disrupting routine administration. By treating exceptions as guided operational events rather than technical failures, the platform supports confident decision-making and resilient day-to-day operations.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

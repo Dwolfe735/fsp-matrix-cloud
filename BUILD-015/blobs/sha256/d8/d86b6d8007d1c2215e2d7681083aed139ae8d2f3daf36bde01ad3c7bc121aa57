@@ -1,0 +1,120 @@
+# REF-026 – Single Source of Truth Doctrine
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification establishes the Single Source of Truth doctrine for the EMMI platform.
+
+Its objective is to ensure that every significant operational fact has one authoritative source from which all related views, reports, workflows, and AI services derive their information.
+
+This doctrine protects consistency, eliminates duplication, and preserves confidence in operational data.
+
+---
+
+# Foundational Principle
+
+Every operational fact shall have one authoritative source.
+
+Information may be displayed in many places, but it should be maintained in only one place.
+
+The platform shall avoid multiple independent versions of the same information.
+
+---
+
+# Authoritative Records
+
+Each operational entity shall maintain its own authoritative record.
+
+Examples include:
+
+* guests;
+* retreats;
+* ceremonies;
+* accommodation;
+* bookings;
+* financial transactions;
+* communications.
+
+These records form the foundation from which all operational views are derived.
+
+---
+
+## Entity Relationships
+
+Authoritative records shall be connected through clearly defined relationships rather than duplicated information.
+
+Examples include:
+
+- a Guest attends a Retreat;
+- a Booking belongs to a Guest;
+- a Payment relates to a Booking;
+- a Communication references a Guest.
+
+Relationships preserve operational context while maintaining a single authoritative source for each operational fact.
+
+---
+
+# Derived Information
+
+Dashboards, reports, summaries, statistics, notifications, and AI recommendations shall derive their information from authoritative records rather than maintaining independent copies.
+
+Derived information should always reflect the current operational state.
+
+---
+
+# Elimination of Duplication
+
+Where duplicate information is identified, the architecture should seek to eliminate unnecessary duplication.
+
+Information should be referenced rather than replicated wherever practical.
+
+Reducing duplication improves consistency and simplifies maintenance.
+
+---
+
+# Data Synchronisation
+
+Where synchronisation between systems is required, EMMI shall continue to recognise one authoritative source for each operational fact.
+
+Synchronisation should distribute information without creating competing versions of the truth.
+
+---
+
+# Architectural Responsibility
+
+Future modules shall integrate with existing authoritative records whenever practical.
+
+New functionality should extend the shared operational model rather than introducing isolated data stores for existing concepts.
+
+Architectural consistency preserves long-term maintainability.
+
+---
+
+# AI Alignment
+
+Artificial intelligence shall utilise authoritative operational information when generating recommendations, summaries, and decision support.
+
+AI should never establish an alternative operational truth independent of the platform's authoritative records.
+
+---
+
+# Future Evolution
+
+As EMMI expands through additional modules, integrations, and AI capabilities, the Single Source of Truth doctrine shall remain one of the platform's primary architectural principles.
+
+Future growth should strengthen data consistency rather than fragment it.
+
+---
+
+# Executive Context Summary
+
+This specification establishes the Single Source of Truth doctrine as a cornerstone of the EMMI architecture. Every significant operational fact should originate from one authoritative record, ensuring that dashboards, workflows, reports, and AI capabilities all operate from the same trusted information. This doctrine safeguards consistency, simplifies maintenance, and reinforces confidence in every operational decision supported by the platform.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

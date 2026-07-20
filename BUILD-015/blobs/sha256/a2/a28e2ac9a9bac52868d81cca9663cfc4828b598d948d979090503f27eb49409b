@@ -1,0 +1,129 @@
+# REF-031 – Service Layer Doctrine
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification establishes the Service Layer doctrine for the EMMI platform.
+
+Its objective is to ensure that operational functionality is implemented as reusable services rather than being embedded within user interfaces, workflows, or individual modules.
+
+The Service Layer provides a stable operational foundation that promotes consistency, maintainability, and future expansion.
+
+---
+
+# Foundational Principle
+
+Operational capability shall reside within services rather than interfaces.
+
+User interfaces, workflows, APIs, AI agents, and automation engines should invoke the same underlying services to perform operational actions.
+
+A capability should be implemented once and reused everywhere.
+
+---
+
+# Service Responsibilities
+
+Services should encapsulate specific operational capabilities.
+
+Examples include:
+
+* booking management;
+* payment processing;
+* accommodation allocation;
+* communication delivery;
+* questionnaire analysis;
+* reporting generation;
+* notification management.
+
+Each service should perform a clearly defined operational responsibility.
+
+---
+
+# Interface Independence
+
+Services shall remain independent of presentation.
+
+The same service should be callable from:
+
+* administration screens;
+* dashboards;
+* automated workflows;
+* scheduled tasks;
+* AI assistants;
+* external integrations.
+
+Operational behaviour should remain consistent regardless of how the service is invoked.
+
+---
+
+# Reusability
+
+Where multiple modules require the same operational capability, they should invoke a shared service rather than implementing duplicate logic.
+
+Reusability reduces maintenance effort and improves architectural consistency.
+
+---
+
+# Governance
+
+Services shall enforce established:
+
+* business rules;
+* operational policies;
+* validation requirements;
+* security controls;
+* audit recording.
+
+Governance should remain within the service rather than being distributed across multiple interfaces.
+
+---
+
+# Error Handling
+
+Services should return meaningful operational outcomes.
+
+Calling components should receive:
+
+* successful completion;
+* validation issues;
+* operational warnings;
+* failure information where applicable.
+
+Services should communicate outcomes clearly without exposing unnecessary implementation detail.
+
+---
+
+# AI Integration
+
+Artificial intelligence shall interact with operational services rather than bypassing established business logic.
+
+This ensures that AI-assisted actions remain consistent with governance, workflows, and operational policy.
+
+---
+
+# Future Evolution
+
+Future versions of EMMI may introduce:
+
+* service discovery;
+* distributed services;
+* external service integration;
+* reusable service libraries;
+* AI-composable services.
+
+These enhancements shall extend the Service Layer while preserving the principles established by this doctrine.
+
+---
+
+# Executive Context Summary
+
+This specification establishes the Service Layer as a fundamental architectural doctrine for EMMI. By centralising operational capabilities into reusable services, the platform ensures consistency across interfaces, workflows, automation, AI, and future integrations. This doctrine strengthens maintainability, reduces duplication, and provides a stable operational foundation for continued architectural evolution.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

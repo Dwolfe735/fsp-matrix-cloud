@@ -1,0 +1,125 @@
+# REF-010 – Operational Efficiency Doctrine
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification establishes the operational efficiency doctrine that shall guide the design of every administrative workflow within EMMI.
+
+Its objective is to minimise unnecessary effort while maximising clarity, productivity, and operational confidence.
+
+---
+
+# Foundational Principle
+
+Every interaction within EMMI should contribute directly to accomplishing an operational objective.
+
+If an action does not add value, improve safety, or provide meaningful information, it should be reconsidered or removed.
+
+Operational efficiency is achieved through intelligent design rather than increased user effort.
+
+---
+
+# Efficiency Objectives
+
+The system shall strive to:
+
+* reduce unnecessary clicks;
+* minimise repetitive data entry;
+* preserve operational context;
+* automate routine tasks where appropriate;
+* present logical next actions;
+* streamline administrative workflows.
+
+Efficiency should never compromise accuracy or safety.
+
+---
+
+# Single-Task Focus
+
+Each screen should be optimised for the primary task being performed.
+
+Users should not be distracted by unrelated information or unnecessary options.
+
+Supporting functions should remain available without interrupting the main workflow.
+
+---
+
+# Intelligent Automation
+
+Routine administrative activities should be automated whenever practical.
+
+Examples include:
+
+* automatic status updates;
+* workflow progression;
+* pre-populated fields;
+* intelligent defaults;
+* reminder generation;
+* document creation.
+
+Automation should always remain transparent and predictable.
+
+---
+
+# Minimise Repetition
+
+Information already known to the system should not require repeated entry.
+
+Where appropriate, existing information should be:
+
+* reused;
+* suggested;
+* remembered;
+* inherited from previous workflow stages.
+
+The administrator's time should be spent making decisions rather than re-entering information.
+
+---
+
+# Decision Support
+
+The interface should assist decision-making by presenting relevant information at the point where it is needed.
+
+Examples include:
+
+* risk summaries during application review;
+* accommodation availability during allocation;
+* payment status during booking confirmation;
+* communication history before sending messages.
+
+Relevant information should be immediately accessible without excessive navigation.
+
+---
+
+# Performance
+
+The system should respond quickly and consistently.
+
+Perceived responsiveness contributes directly to operational efficiency.
+
+Where longer processing is unavoidable, clear progress feedback should always be provided.
+
+---
+
+# Continuous Improvement
+
+Operational efficiency should be continually evaluated throughout the evolution of EMMI.
+
+Whenever recurring inefficiencies are identified, architectural refinements should be considered to improve future workflows.
+
+Efficiency is an ongoing design objective rather than a one-time achievement.
+
+---
+
+# Executive Context Summary
+
+This specification establishes operational efficiency as a foundational design doctrine for EMMI. Every interface, workflow, and administrative process should seek to reduce unnecessary effort while improving clarity and supporting informed decision-making. The platform should continuously evolve towards simpler, faster, and more intuitive operation without compromising reliability or governance.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED

@@ -1,0 +1,114 @@
+# REF-029 – Business Rules Doctrine
+
+**Status:** RATIFIED
+
+---
+
+# Purpose
+
+This specification establishes the Business Rules doctrine for the EMMI platform.
+
+Its objective is to ensure that operational policies, constraints, and decision logic are defined explicitly, applied consistently, and maintained independently of user interfaces and implementation details.
+
+Business rules represent the operational knowledge of the platform.
+
+---
+
+# Foundational Principle
+
+Operational behaviour shall be governed by explicit business rules.
+
+Business rules determine what is permitted, required, prohibited, or recommended throughout the platform.
+
+Rules shall exist independently of individual workflows or interface components.
+
+---
+
+# Business Rule Categories
+
+Business rules may define:
+
+* eligibility requirements;
+* operational constraints;
+* workflow prerequisites;
+* financial policies;
+* accommodation policies;
+* safety requirements;
+* communication procedures;
+* reporting criteria.
+
+Each rule should address a clearly defined operational purpose.
+
+---
+
+# Centralised Rule Management
+
+Where practical, business rules should be managed centrally.
+
+Multiple modules may reference the same rule without creating duplicate implementations.
+
+A rule should be defined once and applied consistently throughout the platform.
+
+---
+
+# Rule Enforcement
+
+The platform shall enforce business rules consistently.
+
+Where a rule prevents an action, the administrator should receive a clear explanation together with any available corrective actions.
+
+Rules should guide users rather than simply block them.
+
+---
+
+# Rule Evolution
+
+Business rules may change as operational practices evolve.
+
+Rule modifications should occur through controlled governance and should preserve compatibility with existing operational records wherever practical.
+
+Operational policy should evolve without compromising architectural consistency.
+
+---
+
+# Transparency
+
+Administrators should be able to understand which business rules influence operational decisions.
+
+The platform should avoid hidden behaviour or unexplained restrictions.
+
+Transparent rules improve confidence and accountability.
+
+---
+
+# AI Integration
+
+Artificial intelligence shall respect established business rules when generating recommendations and operational guidance.
+
+AI may assist with interpretation but shall not override formally established operational policies unless explicitly authorised by future governance.
+
+---
+
+# Future Evolution
+
+Future versions of EMMI may introduce:
+
+* configurable rule engines;
+* rule versioning;
+* conditional rule sets;
+* AI-assisted policy analysis;
+* rule dependency visualisation.
+
+These capabilities shall extend, rather than replace, the principles established by this doctrine.
+
+---
+
+# Executive Context Summary
+
+This specification establishes Business Rules as a foundational architectural doctrine for EMMI. By defining operational policies explicitly and applying them consistently across all modules, the platform ensures predictable behaviour, simplified maintenance, transparent governance, and reliable decision support. This doctrine complements the Event-Driven and State Transition doctrines by defining the operational rules that govern platform behaviour.
+
+---
+
+# Ratification Record
+
+**Status:** RATIFIED
