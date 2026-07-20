@@ -13,6 +13,7 @@ import {
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { adaptHtmlPublication } from "./publication-bridge.mjs";
+import { adaptAiPublication, renderLlmsTxt, renderRootAiDiscovery } from "./ai-access-adapter.mjs";
 
 const SCRIPT_DIRECTORY = path.dirname(fileURLToPath(import.meta.url));
 const REPOSITORY_ROOT = path.resolve(SCRIPT_DIRECTORY, "..");
@@ -105,6 +106,16 @@ async function loadManifest() {
   requireString(manifest.site.title, "site.title");
   requireString(manifest.site.description, "site.description");
   manifest.site.baseUrl = normalizeBaseUrl(manifest.site.baseUrl);
+  if (!manifest.site.baseUrl) fail("site.baseUrl is required for canonical Publication Bridge discovery URLs");
+  requirePlainObject(manifest.bridge, "bridge");
+  requirePlainObject(manifest.bridge.aiAccess, "bridge.aiAccess");
+  const aiAccess = manifest.bridge.aiAccess;
+  if (aiAccess.enabled !== true || aiAccess.level !== 1 || aiAccess.preferredFormat !== "markdown"
+      || aiAccess.includeSourcePages !== true || aiAccess.includeChunkPages !== true) {
+    fail("bridge.aiAccess must enable the complete Markdown Level 1 contract");
+  }
+  if (!Number.isInteger(aiAccess.pageSize) || aiAccess.pageSize < 1) fail("bridge.aiAccess.pageSize must be a positive integer");
+  if (!Number.isInteger(aiAccess.maxPageBytes) || aiAccess.maxPageBytes < 4096) fail("bridge.aiAccess.maxPageBytes must be at least 4096");
   if (!Array.isArray(manifest.publications) || manifest.publications.length === 0) {
     fail("publications must be a non-empty array");
   }
@@ -240,7 +251,7 @@ function renderPortal(manifest) {
 `;
 }
 
-function renderPublication(publication, site, adaptation) {
+function renderPublication(publication, site, htmlAdaptation, aiAdaptation) {
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -260,7 +271,12 @@ function renderPublication(publication, site, adaptation) {
       <dt>Build ID</dt><dd><code>${escapeHtml(publication.buildId)}</code></dd>
       <dt>Compiler version</dt><dd>${escapeHtml(publication.compilerVersion)}</dd>
     </dl>
-    <p class="actions"><a href="${encodeURI(adaptation.entryPath)}">Explore compiler runtime</a> · <a href="${encodeURI(publication.entryArtifact)}">Open primary publication artifact</a></p>
+    <ul class="actions">
+      <li><a href="${encodeURI(htmlAdaptation.entryPath)}">Open Runtime Explorer</a></li>
+      <li><a href="${encodeURI(aiAdaptation.entryPath)}">Open AI-readable publication</a></li>
+      <li><a href="${encodeURI(publication.entryArtifact)}">Open primary publication artifact</a></li>
+      <li><a href="manifest.json">Open raw manifest</a></li>
+    </ul>
     <p><small>The Runtime Explorer is a derived presentation. The compiler artifacts it exposes remain unchanged.</small></p>
   </main>
 </body>
@@ -300,6 +316,7 @@ async function main() {
   await safeRemove(STAGING_ROOT, ".netlify-dist.staging");
   await mkdir(STAGING_ROOT);
   const copyEvidence = [];
+  const aiAdaptations = new Map();
   try {
     for (const publication of manifest.publications) {
       const sourceDirectory = resolveInside(REPOSITORY_ROOT, publication.path, `${publication.id} source`);
@@ -321,8 +338,16 @@ async function main() {
         const evidence = await copyAndVerify(file.absolutePath, destination);
         copyEvidence.push({ publication: publication.id, path: file.relativePath, ...evidence });
       }
-      const adaptation = await adaptHtmlPublication({ publication, destinationDirectory });
-      await writeFile(path.join(destinationDirectory, "index.html"), renderPublication(publication, manifest.site, adaptation), "utf8");
+      const htmlAdaptation = await adaptHtmlPublication({ publication, destinationDirectory });
+      const aiAdaptation = await adaptAiPublication({
+        publication,
+        sourceDirectory,
+        destinationDirectory,
+        capability: manifest.bridge.aiAccess,
+        siteBaseUrl: manifest.site.baseUrl,
+      });
+      aiAdaptations.set(publication.id, aiAdaptation);
+      await writeFile(path.join(destinationDirectory, "index.html"), renderPublication(publication, manifest.site, htmlAdaptation, aiAdaptation), "utf8");
     }
 
     const publicCatalogue = {
@@ -332,6 +357,9 @@ async function main() {
     };
     await writeFile(path.join(STAGING_ROOT, "index.html"), renderPortal(manifest), "utf8");
     await writeFile(path.join(STAGING_ROOT, "publications.json"), `${JSON.stringify(publicCatalogue, null, 2)}\n`, "utf8");
+    const rootDiscovery = renderRootAiDiscovery(manifest, aiAdaptations);
+    await writeFile(path.join(STAGING_ROOT, ".ai-discovery.json"), `${JSON.stringify(rootDiscovery, null, 2)}\n`, "utf8");
+    await writeFile(path.join(STAGING_ROOT, "llms.txt"), renderLlmsTxt(manifest, rootDiscovery), "utf8");
     const robots = manifest.site.baseUrl
       ? `User-agent: *\nAllow: /\n\nSitemap: ${new URL("sitemap.xml", manifest.site.baseUrl).href}\n`
       : "User-agent: *\nAllow: /\n";

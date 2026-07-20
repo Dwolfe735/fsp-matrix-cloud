@@ -2,7 +2,19 @@
   "schemaVersion": 1,
   "site": {
     "title": "Future Self Protocol — Matrix Cloud",
-    "description": "Authoritative compiled knowledge publications distributed through the Matrix Cloud."
+    "description": "Authoritative compiled knowledge publications distributed through the Matrix Cloud.",
+    "baseUrl": "https://shade-labs.netlify.app/"
+  },
+  "bridge": {
+    "aiAccess": {
+      "enabled": true,
+      "level": 1,
+      "preferredFormat": "markdown",
+      "includeSourcePages": true,
+      "includeChunkPages": true,
+      "pageSize": 25,
+      "maxPageBytes": 400000
+    }
   },
   "publications": [
     {
