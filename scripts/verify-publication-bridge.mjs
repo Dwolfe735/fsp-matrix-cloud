@@ -70,7 +70,7 @@ async function snapshotDerived() {
       snapshot.set(`${publication.path}/_bridge/${relativePath}`, sha256(buffer));
     }
   }
-  for (const relativePath of ["index.html", "publications.json", ".ai-discovery.json", "llms.txt", "robots.txt", "sitemap.xml"]) {
+  for (const relativePath of ["index.html", "publications.json", ".ai-discovery.json", "ai-discovery.json", "llms.txt", "robots.txt", "sitemap.xml"]) {
     const buffer = await readFile(path.join(destinationRoot, relativePath));
     snapshot.set(relativePath, sha256(buffer));
   }
@@ -85,6 +85,8 @@ let sourcesRepresented = 0;
 let chunksRepresented = 0;
 
 const rootDiscovery = parseJson(await readFile(path.join(destinationRoot, ".ai-discovery.json")), ".ai-discovery.json");
+const rootDiscoveryAlias = await readFile(path.join(destinationRoot, "ai-discovery.json"));
+if (sha256(await readFile(path.join(destinationRoot, ".ai-discovery.json"))) !== sha256(rootDiscoveryAlias)) fail("Root discovery alias differs from .ai-discovery.json");
 const llms = await readFile(path.join(destinationRoot, "llms.txt"), "utf8");
 if (rootDiscovery.schema !== "matrix.publication-bridge.root-discovery/v1") fail("Root discovery schema is incorrect");
 if (rootDiscovery.publications?.length !== publicationManifest.publications.length) fail("Root discovery publication count is incomplete");

@@ -1,3 +1,9 @@
 [build]
 command = "node scripts/assemble-publications.mjs"
 publish = ".netlify-dist"
+
+[[redirects]]
+from = "/.ai-discovery.json"
+to = "/ai-discovery.json"
+status = 200
+force = true

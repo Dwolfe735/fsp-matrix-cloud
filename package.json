@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/assemble-publications.mjs",
-    "test": "node scripts/assemble-publications.mjs && node scripts/verify-publication-bridge.mjs && node scripts/verify-http-access.mjs"
+    "test": "node scripts/assemble-publications.mjs && node scripts/verify-publication-bridge.mjs && node scripts/verify-http-access.mjs",
+    "verify:live": "node scripts/verify-live-deployment.mjs"
   }
 }

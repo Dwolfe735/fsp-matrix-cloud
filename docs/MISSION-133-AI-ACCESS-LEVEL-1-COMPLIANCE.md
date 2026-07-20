@@ -41,6 +41,7 @@ Assembly fails when this contract is incomplete, when a publication does not exp
 The bridge publishes:
 
 - `/.ai-discovery.json`: structured root discovery for every publication;
+- `/ai-discovery.json`: byte-identical deployment alias used by the Netlify rewrite for the required leading-dot route;
 - `/llms.txt`: plain-text publication and route discovery;
 - `<publication>/_bridge/ai/v1/discovery.json`: publication-specific structured discovery;
 - `<publication>/_bridge/ai/v1/index.md`: concise Level 1 retrieval map;

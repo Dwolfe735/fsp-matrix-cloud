@@ -358,7 +358,9 @@ async function main() {
     await writeFile(path.join(STAGING_ROOT, "index.html"), renderPortal(manifest), "utf8");
     await writeFile(path.join(STAGING_ROOT, "publications.json"), `${JSON.stringify(publicCatalogue, null, 2)}\n`, "utf8");
     const rootDiscovery = renderRootAiDiscovery(manifest, aiAdaptations);
-    await writeFile(path.join(STAGING_ROOT, ".ai-discovery.json"), `${JSON.stringify(rootDiscovery, null, 2)}\n`, "utf8");
+    const rootDiscoveryText = `${JSON.stringify(rootDiscovery, null, 2)}\n`;
+    await writeFile(path.join(STAGING_ROOT, ".ai-discovery.json"), rootDiscoveryText, "utf8");
+    await writeFile(path.join(STAGING_ROOT, "ai-discovery.json"), rootDiscoveryText, "utf8");
     await writeFile(path.join(STAGING_ROOT, "llms.txt"), renderLlmsTxt(manifest, rootDiscovery), "utf8");
     const robots = manifest.site.baseUrl
       ? `User-agent: *\nAllow: /\n\nSitemap: ${new URL("sitemap.xml", manifest.site.baseUrl).href}\n`
